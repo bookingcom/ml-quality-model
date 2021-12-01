@@ -1,2 +1,10 @@
 site_name: ML Quality Model
 theme: material
+nav:
+  - 'README.md'
+  - 'characteristics.md'
+  - 'definitions.md'
+  - 'subcharacteristics.md'
+  - 'schemas.md'
+  - 'glossary.md'
+  - 'license.md'
