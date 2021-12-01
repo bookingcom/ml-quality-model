@@ -1,0 +1,568 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-7.3.4">
+    
+    
+      
+        <title>Subcharacteristic definitions - ML Quality Model</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.db9e7362.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.3f5d1f46.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+    
+      
+
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+  
+    
+    <script>function __prefix(e){return new URL("..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#subcharacteristic-definitions" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="ML Quality Model" class="md-header__button md-logo" aria-label="ML Quality Model" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            ML Quality Model
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Subcharacteristic definitions
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="ML Quality Model" class="md-nav__button md-logo" aria-label="ML Quality Model" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    ML Quality Model
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../README.md" class="md-nav__link">
+        None
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../characteristics/" class="md-nav__link">
+        Characteristics - details
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Subcharacteristic definitions
+      </a>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../subcharacteristics/" class="md-nav__link">
+        Subcharacteristics - details
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../schemas/" class="md-nav__link">
+        Schemas
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../glossary/" class="md-nav__link">
+        Glossary
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../license/" class="md-nav__link">
+        License
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="subcharacteristic-definitions">Subcharacteristic definitions</h1>
+<p>This page contains definitions of all the subcharacteristics.
+Click <a href="../subcharacteristics/">here for more details about each subcharacteristic</a></p>
+<table>
+<thead>
+<tr>
+<th align="left">Characteristic</th>
+<th align="left">Subcharacteristics</th>
+<th align="left">Definition</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Utility</td>
+<td align="left">Accuracy</td>
+<td align="left">The size of the observational error (systematic and random) of an ML system.</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left">Effectiveness</td>
+<td align="left">The ability of an ML system to produce a desired result on the business task it is being used for.</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left">Responsiveness</td>
+<td align="left">The ability of an ML system to complete the desired task in an acceptable time frame.</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left">Reusability</td>
+<td align="left">The ability to reuse the same ML system without any change, for another business case.</td>
+</tr>
+<tr>
+<td align="left">Economy</td>
+<td align="left">Cost-effectiveness</td>
+<td align="left">The extent to which an ML System achieves the desired relationship between costs and overall impact.</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left">Efficiency</td>
+<td align="left">The ability to avoid wasting resources (computational, human, financial, etc.) in order to perform the desired task effectively.</td>
+</tr>
+<tr>
+<td align="left">Robustness</td>
+<td align="left">Recoverability</td>
+<td align="left">The extent to which an ML system can be promptly restored to a previous functioning state.</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left">Availability</td>
+<td align="left">The probability that the system will be up and running and able to deliver useful services to users.</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left">Resilience</td>
+<td align="left">The extent to which an ML system can provide and maintain an acceptable level of service in the face of technical challenges to normal operation.</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left">Adaptability</td>
+<td align="left">The extent to which an ML system can adapt to changes in the production environment, always providing the same functioning level.</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left">Scalability</td>
+<td align="left">The extent of an ML system to handle a growing amount of work by adding resources to the system.</td>
+</tr>
+<tr>
+<td align="left">Modifiability</td>
+<td align="left">Extensibility</td>
+<td align="left">The ease with which a system can be modified, in order to be used for another purpose.</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left">Maintainability</td>
+<td align="left">The ease with which activities aiming at keeping an ML system functional in the desired regime, can be performed.</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left">Modularity</td>
+<td align="left">The extent to which an ML system consists of components of limited functionality that interrelate with each other.</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left">Testability</td>
+<td align="left">The extent with which an ML system can be tested against expected behaviours.</td>
+</tr>
+<tr>
+<td align="left">Productionizability</td>
+<td align="left">Deployability</td>
+<td align="left">The extent to which an ML system can be deployed in production when needed.</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left">Repeatability</td>
+<td align="left">The ease with which the ML lifecycle can be repeated.</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left">Operability</td>
+<td align="left">The extent to which an ML system can be controlled (disable, upload new version, etc.).</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left">Monitoring</td>
+<td align="left">The extent to which relevant indicators of an ML system are effectively observed/monitored and integrated in the operation of the system.</td>
+</tr>
+<tr>
+<td align="left">Comprehensibility</td>
+<td align="left">Discoverability</td>
+<td align="left">The extent to which an ML system can be found (by means of performing a search in a database or any other information retrieval system).</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left">Learnability</td>
+<td align="left">The capability of an ML system to enable the user to learn how to use it.</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left">Readability</td>
+<td align="left">The ease with which the code of an ML system can be understood.</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left">Traceability</td>
+<td align="left">The ability to relate artifacts created during the development of an ML system to describe the system from different perspectives and levels of abstraction with each other, the stakeholders that have contributed to the creation of the artifacts, and the rationale that explains the form of the artifacts.</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left">Understandability</td>
+<td align="left">The ease with which the implementation and design choices of an ML system can be understood.</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left">Usability</td>
+<td align="left">The extent to which an ML system can be effectively used by users.</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left">Observability / Debuggability</td>
+<td align="left">The extent to which the inner workings of the ML system can be analyzed in order to understand why it behaves the way it does.</td>
+</tr>
+<tr>
+<td align="left">Responsibility</td>
+<td align="left">Explainability</td>
+<td align="left">The ability to explain the output of an ML system.</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left">Fairness</td>
+<td align="left">The extent to which an ML system prevents unjust predictions towards protected attributes (race, gender, income, etc).</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left">Ownership</td>
+<td align="left">The extent to which there exists people appointed to maintaining the ML System and supporting all the relevant stakeholders.</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left">Standards Compliance</td>
+<td align="left">The extent to which applicable standards are followed in the ML system.</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left">Vulnerability</td>
+<td align="left">The ease with which the system can be (ab)used to achieve malicious purposes.</td>
+</tr>
+</tbody>
+</table>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../characteristics/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Characteristics - details" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Characteristics - details
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../subcharacteristics/" class="md-footer__link md-footer__link--next" aria-label="Next: Subcharacteristics - details" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Subcharacteristics - details
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        
+          Made with
+          <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+            Material for MkDocs
+          </a>
+        
+        
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "..", "features": [], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../assets/javascripts/workers/search.8397ff9e.min.js", "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.1e84347e.min.js"></script>
+      
+    
+  </body>
+</html>
