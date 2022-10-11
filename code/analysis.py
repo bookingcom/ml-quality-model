@@ -188,7 +188,7 @@ def plot_quality_coverage(merged_practices: pd.Series) -> None:
     practice_score_f = lambda sub_char, practice: merged_practices.loc[(sub_char, practice)]
     xs = []
     ys = []
-    for num_practices in range(1, len(practices)):
+    for num_practices in range(1, len(practices)+1):
         practices_to_adopt = get_n_practices_greedy(
             practice_score_f=practice_score_f,
             practices_available=practices.copy(),
