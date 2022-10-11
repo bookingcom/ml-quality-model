@@ -1,0 +1,1190 @@
+quality sub-characteristic	Practice	Annotator_1	Annotator_2	Annotator_3	Annotator_4	Annotator_5	Annotator_6	Annotator_7	Annotator_8	Annotator_9	Annotator_10	Annotator_11	Annotator_12	Annotator_13
+accuracy	logging of metadata and artifacts	0	0	0	0	0	0	0	0	0	0	0	0	0
+effectiveness	logging of metadata and artifacts	0	0	0	0	0	0	0	0	0	0	0	0	0
+responsiveness	logging of metadata and artifacts	0	0	0	0	0	0	0	0	0	0	0	0	0
+reusability	logging of metadata and artifacts	3	2	0	1	1	4	1	0	3	4	3	1	3
+cost-effectiveness	logging of metadata and artifacts	0	0	0	0	0	0	0	0	0	0	0	0	0
+efficiency	logging of metadata and artifacts	0	0	0	0	0	0	0	0	0	0	0	0	0
+availability	logging of metadata and artifacts	2	0	0	1	3	2	1	0	2	3	1	1	0
+resilience	logging of metadata and artifacts	0	0	0	0	0	0	0	0	0	0	0	0	0
+adaptability	logging of metadata and artifacts	0	0	0	0	0	0	0	0	0	0	0	0	0
+scalability	logging of metadata and artifacts	0	0	1	0	0	0	1	0	4	0	1	3	0
+extensibility	logging of metadata and artifacts	3	2	1	0	1	1	1	0	3	2	0	2	0
+maintainability	logging of metadata and artifacts	4	2	1	1	3	4	3	0	3	4	0	4	0
+modularity	logging of metadata and artifacts	0	0	0	0	0	0	0	0	0	0	0	0	0
+testability	logging of metadata and artifacts	0	0	1	0	1	2	1	1	3	3	3	4	2
+deployability	logging of metadata and artifacts	0	0	3	2	0	4	3	0	0	3	0	4	0
+repeatability	logging of metadata and artifacts	4	4	4	1	0	4	2	0	4	1	3	3	4
+operability	logging of metadata and artifacts	0	0	1	1	0	4	2	1	0	0	0	3	0
+monitoring	logging of metadata and artifacts	3	3	0	0	4	1	2	3	3	4	3	4	0
+discoverability	logging of metadata and artifacts	3	1	0	0	0	0	1	0	0	0	0	1	0
+readability	logging of metadata and artifacts	0	2	0	0	3	0	0	1	4	0	1	0	0
+traceability	logging of metadata and artifacts	4	2	4	4	3	4	2	4	0	0	4	0	4
+understandability	logging of metadata and artifacts	2	1	1	0	3	0	0	3	4	0	2	0	3
+usability	logging of metadata and artifacts	0	1	0	0	3	0	0	3	3	1	1	0	0
+debuggability	logging of metadata and artifacts	3	3	2	1	3	3	2	4	4	4	3	4	3
+explainability	logging of metadata and artifacts	0	2	2	0	3	0	0	3	4	0	3	3	3
+fairness	logging of metadata and artifacts	0	0	0	0	0	0	0	0	0	0	0	0	0
+ownership	logging of metadata and artifacts	0	1	1	0	0	1	2	1	1	0	0	0	0
+standards-compliance	logging of metadata and artifacts	2	0	0	2	0	1	2	0	3	2	1	0	2
+vulnerability	logging of metadata and artifacts	0	0	0	0	0	0	0	0	0	0	0	0	0
+accuracy	code versioning	0	0	0	0	0	0	0	0	0	0	0	0	0
+effectiveness	code versioning	0	0	0	0	0	0	0	0	0	0	0	0	0
+responsiveness	code versioning	0	0	0	0	0	0	0	0	0	0	0	0	0
+reusability	code versioning	0	2	0	1	3	4	3	3	4	4	2	3	4
+cost-effectiveness	code versioning	0	0	0	0	0	0	0	0	0	0	0	0	0
+efficiency	code versioning	0	0	0	0	0	0	0	0	0	0	0	0	0
+availability	code versioning	2	3	0	1	3	1	1	0	1	1	1	0	3
+resilience	code versioning	2	0	0	1	3	0	1	2	1	3	1	2	0
+adaptability	code versioning	0	3	2	1	3	0	1	0	2	0	1	2	4
+scalability	code versioning	0	0	0	0	0	0	0	0	0	0	0	0	0
+extensibility	code versioning	1	4	3	1	3	4	1	1	3	1	3	2	4
+maintainability	code versioning	3	4	4	2	3	4	2	3	4	4	3	3	4
+modularity	code versioning	0	4	3	0	0	0	0	0	0	0	0	0	0
+testability	code versioning	0	1	2	3	3	4	2	3	2	3	3	4	0
+deployability	code versioning	0	0	3	1	3	4	3	3	4	2	3	4	1
+repeatability	code versioning	2	3	4	3	3	4	3	2	4	0	2	3	4
+operability	code versioning	0	0	2	0	3	3	3	3	4	0	4	3	1
+monitoring	code versioning	0	0	0	0	0	0	0	0	0	0	0	0	0
+discoverability	code versioning	0	3	2	2	3	4	1	0	4	0	1	1	0
+readability	code versioning	2	3	1	1	1	4	1	0	3	1	0	0	0
+traceability	code versioning	3	3	4	1	3	4	2	3	4	2	0	1	1
+understandability	code versioning	1	2	3	1	0	4	0	0	2	0	0	0	1
+usability	code versioning	0	1	2	1	0	1	2	1	1	0	1	0	0
+debuggability	code versioning	1	1	3	0	3	4	3	3	4	3	3	3	4
+explainability	code versioning	0	0	1	0	0	3	1	3	2	0	1	0	1
+fairness	code versioning	0	0	0	0	0	0	0	0	0	0	0	0	0
+ownership	code versioning	0	3	3	2	3	4	1	4	4	0	1	4	0
+standards-compliance	code versioning	0	0	0	0	0	0	0	0	0	0	0	0	0
+vulnerability	code versioning	0	0	0	0	0	0	0	0	0	0	0	0	0
+accuracy	data versioning	0	0	0	0	0	0	0	0	0	0	0	0	0
+effectiveness	data versioning	1	0	0	0	0	0	1	0	3	4	0	1	0
+responsiveness	data versioning	0	0	0	0	0	0	0	0	0	0	0	0	0
+reusability	data versioning	0	0	2	0	0	3	1	0	4	1	0	1	4
+cost-effectiveness	data versioning	0	0	0	0	0	0	0	0	0	0	0	0	0
+efficiency	data versioning	0	0	0	0	0	0	0	0	0	0	0	0	0
+availability	data versioning	0	0	0	0	0	0	0	0	0	0	0	0	0
+resilience	data versioning	2	0	0	0	3	1	2	1	4	1	0	3	0
+adaptability	data versioning	0	0	3	1	0	0	2	0	3	1	0	2	0
+scalability	data versioning	0	0	0	0	0	0	0	0	0	0	0	0	0
+extensibility	data versioning	0	2	3	0	0	0	2	0	3	0	0	2	0
+maintainability	data versioning	2	2	1	0	0	2	2	4	4	1	0	4	2
+modularity	data versioning	0	2	0	0	0	1	1	2	1	0	0	3	2
+testability	data versioning	0	0	1	2	3	0	1	3	1	2	3	4	2
+deployability	data versioning	0	0	0	0	0	0	0	0	0	0	0	0	0
+repeatability	data versioning	3	4	4	3	0	4	3	3	4	0	3	2	4
+operability	data versioning	0	0	0	0	0	0	0	0	0	0	0	0	0
+monitoring	data versioning	0	1	0	0	0	1	2	3	3	3	3	3	1
+discoverability	data versioning	0	0	0	0	0	0	0	0	0	0	0	0	0
+readability	data versioning	0	1	1	0	0	0	0	3	3	0	1	1	0
+traceability	data versioning	4	1	4	3	3	4	2	3	4	1	3	3	0
+understandability	data versioning	1	1	1	0	0	0	0	2	3	0	1	0	0
+usability	data versioning	0	1	0	0	0	0	0	3	2	0	1	0	0
+debuggability	data versioning	3	0	1	2	1	2	1	4	2	4	3	3	0
+explainability	data versioning	0	0	2	0	1	0	0	4	3	0	1	1	0
+fairness	data versioning	0	0	0	0	0	0	0	0	0	0	0	0	0
+ownership	data versioning	0	3	1	1	0	0	2	0	1	0	1	4	0
+standards-compliance	data versioning	0	0	3	1	3	1	0	3	3	1	1	4	1
+vulnerability	data versioning	0	0	0	0	0	0	0	0	0	0	0	0	0
+accuracy	model versioning	0	0	0	0	0	0	0	0	0	0	0	0	0
+effectiveness	model versioning	0	0	0	0	0	0	0	0	0	0	0	0	0
+responsiveness	model versioning	0	0	0	0	0	0	0	0	0	0	0	0	0
+reusability	model versioning	1	1	0	3	3	4	2	1	4	1	1	4	0
+cost-effectiveness	model versioning	0	0	0	0	0	0	0	0	0	0	0	0	0
+efficiency	model versioning	0	0	0	0	0	0	0	0	0	0	0	0	0
+availability	model versioning	0	0	0	0	0	0	0	0	0	0	0	0	0
+resilience	model versioning	0	0	0	0	0	0	0	0	0	0	0	0	0
+adaptability	model versioning	0	0	1	1	3	0	1	0	1	1	1	1	0
+scalability	model versioning	0	0	3	0	0	0	1	0	0	1	0	3	0
+extensibility	model versioning	0	2	2	0	1	1	2	1	3	1	1	1	0
+maintainability	model versioning	1	2	1	3	3	4	2	3	4	4	3	4	3
+modularity	model versioning	0	0	0	0	0	0	0	0	0	0	0	0	0
+testability	model versioning	0	0	1	2	0	2	1	1	1	4	3	4	1
+deployability	model versioning	0	4	3	1	3	4	2	3	4	4	3	4	3
+repeatability	model versioning	4	4	4	1	0	3	2	0	4	3	3	1	0
+operability	model versioning	0	4	4	3	0	4	2	3	4	3	3	3	3
+monitoring	model versioning	0	0	1	0	0	0	2	0	3	3	2	1	0
+discoverability	model versioning	0	3	3	0	0	0	1	3	2	1	0	4	0
+readability	model versioning	0	0	0	0	0	0	0	0	0	0	0	0	0
+traceability	model versioning	4	0	4	3	0	4	3	4	1	4	0	2	3
+understandability	model versioning	1	0	0	0	0	0	1	4	1	4	0	1	0
+usability	model versioning	0	2	0	2	1	0	1	3	2	3	1	0	0
+debuggability	model versioning	3	0	1	0	0	0	2	2	2	2	3	4	3
+explainability	model versioning	0	0	0	0	0	0	0	0	0	0	0	0	0
+fairness	model versioning	0	0	0	0	0	0	0	0	0	0	0	0	0
+ownership	model versioning	0	4	2	0	0	0	0	0	0	0	0	0	0
+standards-compliance	model versioning	0	0	3	0	0	2	1	3	3	4	0	1	0
+vulnerability	model versioning	0	0	0	0	0	0	0	0	0	0	0	0	0
+accuracy	documentation	0	0	0	0	0	0	0	0	0	0	0	0	0
+effectiveness	documentation	0	0	0	0	0	0	0	0	0	0	0	0	0
+responsiveness	documentation	0	0	0	0	0	0	0	0	0	0	0	0	0
+reusability	documentation	4	4	3	3	4	4	3	2	3	4	3	4	3
+cost-effectiveness	documentation	0	0	0	0	0	0	0	0	0	0	0	0	0
+efficiency	documentation	0	0	0	0	0	0	0	0	0	0	0	0	0
+availability	documentation	0	0	0	0	0	0	0	0	0	0	0	0	0
+resilience	documentation	0	0	0	0	0	0	0	0	0	0	0	0	0
+adaptability	documentation	0	0	2	1	4	0	1	0	2	2	1	2	3
+scalability	documentation	0	0	0	0	0	0	0	0	0	0	0	0	0
+extensibility	documentation	2	4	2	3	3	1	2	2	2	4	2	4	3
+maintainability	documentation	2	4	2	3	3	4	3	1	3	4	3	4	3
+modularity	documentation	0	0	0	0	0	0	0	0	0	0	0	0	0
+testability	documentation	0	0	0	0	0	0	0	0	0	0	0	0	0
+deployability	documentation	0	2	0	3	3	1	2	0	3	4	2	2	1
+repeatability	documentation	0	4	2	3	3	1	3	0	2	4	2	2	3
+operability	documentation	0	3	0	0	3	3	3	0	3	4	2	1	0
+monitoring	documentation	0	0	0	0	0	0	0	0	0	0	0	0	0
+discoverability	documentation	0	4	3	4	4	4	3	1	4	4	3	3	2
+readability	documentation	0	2	4	2	3	4	4	3	4	4	3	3	0
+traceability	documentation	2	4	2	1	1	3	4	3	2	4	1	1	0
+understandability	documentation	4	4	4	4	4	4	4	4	4	4	3	3	4
+usability	documentation	3	4	2	3	4	3	4	3	3	4	3	2	4
+debuggability	documentation	2	1	1	1	1	2	2	3	2	4	2	2	3
+explainability	documentation	0	0	1	1	3	0	4	3	4	4	3	1	1
+fairness	documentation	0	2	0	1	2	1	1	1	0	1	1	0	1
+ownership	documentation	0	3	1	2	4	3	3	3	1	4	2	4	1
+standards-compliance	documentation	1	1	0	3	2	0	3	4	2	4	3	4	1
+vulnerability	documentation	0	0	0	0	0	0	0	0	0	0	0	0	0
+accuracy	ownership	0	0	0	0	0	0	0	0	0	0	0	0	0
+effectiveness	ownership	1	0	0	1	3	0	1	3	4	3	1	1	1
+responsiveness	ownership	0	0	0	0	0	0	0	0	0	0	0	0	0
+reusability	ownership	2	2	0	1	0	4	2	2	3	3	0	1	1
+cost-effectiveness	ownership	0	0	0	0	0	0	0	0	0	0	0	0	0
+efficiency	ownership	0	0	0	0	0	0	0	0	0	0	0	0	0
+availability	ownership	3	0	0	4	3	1	0	2	4	4	3	3	3
+resilience	ownership	0	0	0	0	0	0	0	0	0	0	0	0	0
+adaptability	ownership	0	0	1	2	1	0	0	0	1	1	2	1	1
+scalability	ownership	0	0	0	0	0	0	0	0	0	0	0	0	0
+extensibility	ownership	2	2	0	0	1	1	0	2	0	1	0	1	1
+maintainability	ownership	3	2	1	3	3	4	3	3	3	1	2	4	3
+modularity	ownership	0	0	0	0	0	0	0	0	0	0	0	0	0
+testability	ownership	0	0	0	0	0	0	0	0	0	0	0	0	0
+deployability	ownership	0	2	0	0	0	3	3	0	3	0	1	1	1
+repeatability	ownership	2	3	0	0	2	4	2	0	2	0	1	1	1
+operability	ownership	0	3	0	1	0	2	2	0	3	1	2	1	2
+monitoring	ownership	3	0	1	2	0	0	2	4	3	0	0	3	1
+discoverability	ownership	2	2	0	0	1	4	2	0	3	1	3	3	0
+readability	ownership	0	2	0	0	1	0	2	1	0	4	0	1	0
+traceability	ownership	2	2	3	0	1	1	2	4	2	2	2	3	0
+understandability	ownership	2	2	0	0	1	1	2	3	0	4	3	2	0
+usability	ownership	0	2	0	1	1	0	1	3	1	4	1	1	0
+debuggability	ownership	2	1	0	0	1	3	1	3	0	1	3	3	0
+explainability	ownership	0	0	0	0	0	0	0	0	0	0	0	0	0
+fairness	ownership	1	0	0	0	0	0	0	2	0	0	0	2	0
+ownership	ownership	4	4	4	4	4	4	4	4	4	4	4	4	4
+standards-compliance	ownership	4	2	0	3	1	4	3	3	3	3	1	4	0
+vulnerability	ownership	3	0	0	2	3	2	2	4	2	0	1	4	2
+accuracy	use of containarized environment	0	0	0	0	0	0	0	0	0	0	0	0	0
+effectiveness	use of containarized environment	0	0	0	0	0	0	0	0	0	0	0	0	0
+responsiveness	use of containarized environment	0	0	0	0	0	0	0	0	0	0	0	0	0
+reusability	use of containarized environment	3	0	1	0	3	4	2	3	4	1	1	4	0
+cost-effectiveness	use of containarized environment	0	0	0	0	0	0	0	0	0	0	0	0	0
+efficiency	use of containarized environment	0	0	0	0	0	0	0	0	0	0	0	0	0
+availability	use of containarized environment	0	2	0	0	3	1	1	3	3	3	3	3	3
+resilience	use of containarized environment	0	2	0	0	3	1	0	3	3	3	3	4	3
+adaptability	use of containarized environment	0	0	2	0	0	0	0	3	2	4	3	1	0
+scalability	use of containarized environment	0	0	4	0	0	1	2	4	3	4	3	4	3
+extensibility	use of containarized environment	0	2	3	3	0	2	1	1	2	1	0	3	0
+maintainability	use of containarized environment	2	4	3	3	3	4	2	0	1	1	0	2	3
+modularity	use of containarized environment	0	3	0	0	0	2	2	1	1	0	1	1	0
+testability	use of containarized environment	0	3	2	0	1	4	2	3	1	1	3	4	0
+deployability	use of containarized environment	4	3	4	1	3	2	3	3	4	4	3	4	3
+repeatability	use of containarized environment	3	3	4	3	3	4	2	1	2	1	1	3	3
+operability	use of containarized environment	0	3	3	0	4	0	2	3	4	3	0	1	3
+monitoring	use of containarized environment	0	0	1	0	0	0	2	1	2	1	0	1	0
+discoverability	use of containarized environment	0	0	0	0	0	0	0	0	0	0	0	0	0
+readability	use of containarized environment	0	1	0	0	0	0	0	0	1	0	0	0	0
+traceability	use of containarized environment	0	0	2	0	3	1	2	1	2	1	1	4	0
+understandability	use of containarized environment	0	0	0	0	0	0	0	0	0	0	0	0	0
+usability	use of containarized environment	2	0	2	0	3	1	2	0	1	1	3	1	0
+debuggability	use of containarized environment	0	2	2	3	3	4	2	3	2	2	3	1	0
+explainability	use of containarized environment	0	0	0	0	0	0	0	0	0	0	0	0	0
+fairness	use of containarized environment	0	0	0	0	0	0	0	0	0	0	0	0	0
+ownership	use of containarized environment	0	0	0	0	0	0	0	0	0	0	0	0	0
+standards-compliance	use of containarized environment	0	0	0	0	0	0	0	0	0	0	0	0	0
+vulnerability	use of containarized environment	0	0	0	0	0	0	0	0	0	0	0	0	0
+accuracy	model performance monitoring	0	1	2	3	1	1	3	2	2	4	2	1	2
+effectiveness	model performance monitoring	0	1	3	3	1	2	2	3	3	3	2	3	2
+responsiveness	model performance monitoring	0	3	4	0	1	0	2	3	3	2	2	3	2
+reusability	model performance monitoring	2	1	0	2	0	1	0	3	0	0	2	2	0
+cost-effectiveness	model performance monitoring	0	2	4	2	0	1	0	3	2	3	2	2	2
+efficiency	model performance monitoring	0	0	3	0	0	2	3	3	2	3	2	2	2
+availability	model performance monitoring	0	0	0	0	0	0	0	0	0	0	0	0	0
+resilience	model performance monitoring	0	0	0	0	0	0	0	0	0	0	0	0	0
+adaptability	model performance monitoring	0	0	0	0	0	0	0	0	0	0	0	0	0
+scalability	model performance monitoring	0	0	0	0	0	0	0	0	0	0	0	0	0
+extensibility	model performance monitoring	0	0	0	0	0	0	0	0	0	0	0	0	0
+maintainability	model performance monitoring	0	0	0	0	0	0	0	0	0	0	0	0	0
+modularity	model performance monitoring	0	0	0	0	0	0	0	0	0	0	0	0	0
+testability	model performance monitoring	0	0	0	0	0	0	0	0	0	0	0	0	0
+deployability	model performance monitoring	0	0	0	0	0	0	0	0	0	0	0	0	0
+repeatability	model performance monitoring	0	0	0	0	0	0	0	0	0	0	0	0	0
+operability	model performance monitoring	0	0	2	0	1	1	0	0	4	2	2	4	3
+monitoring	model performance monitoring	4	4	4	4	4	4	3	4	4	4	4	4	4
+discoverability	model performance monitoring	0	0	0	0	0	0	0	0	0	0	0	0	0
+readability	model performance monitoring	0	0	0	0	0	0	0	0	0	0	0	0	0
+traceability	model performance monitoring	0	0	0	0	0	0	0	0	0	0	0	0	0
+understandability	model performance monitoring	3	0	0	0	1	0	0	3	0	0	0	3	0
+usability	model performance monitoring	1	0	0	1	1	1	0	3	2	0	1	1	0
+debuggability	model performance monitoring	2	4	1	1	1	4	3	0	1	4	3	4	2
+explainability	model performance monitoring	0	0	0	0	0	0	0	0	0	0	0	0	0
+fairness	model performance monitoring	0	0	0	0	0	0	0	0	0	0	0	0	0
+ownership	model performance monitoring	0	0	0	0	0	0	0	0	0	0	0	0	0
+standards-compliance	model performance monitoring	0	0	0	0	0	0	0	0	0	0	0	0	0
+vulnerability	model performance monitoring	0	0	0	0	0	0	0	0	0	0	0	0	0
+accuracy	monitor feature parity	0	2	3	4	1	0	3	4	4	4	2	3	2
+effectiveness	monitor feature parity	0	2	0	4	3	2	2	3	4	3	3	3	1
+responsiveness	monitor feature parity	0	0	0	0	0	0	0	0	0	0	0	0	0
+reusability	monitor feature parity	2	1	0	1	3	1	1	0	2	0	1	1	0
+cost-effectiveness	monitor feature parity	0	1	0	2	3	0	0	2	2	0	1	1	1
+efficiency	monitor feature parity	0	1	0	0	3	0	2	2	3	0	1	1	1
+availability	monitor feature parity	0	0	0	0	0	0	0	0	0	0	0	0	0
+resilience	monitor feature parity	0	0	0	0	0	0	0	0	0	0	0	0	0
+adaptability	monitor feature parity	0	0	0	0	0	0	0	0	0	0	0	0	0
+scalability	monitor feature parity	0	0	0	0	0	0	0	0	0	0	0	0	0
+extensibility	monitor feature parity	0	0	0	0	0	0	0	0	0	0	0	0	0
+maintainability	monitor feature parity	0	0	0	0	0	0	0	0	0	0	0	0	0
+modularity	monitor feature parity	0	0	0	0	0	0	0	0	0	0	0	0	0
+testability	monitor feature parity	0	0	0	0	0	0	0	0	0	0	0	0	0
+deployability	monitor feature parity	0	0	1	0	3	3	0	0	2	2	1	3	0
+repeatability	monitor feature parity	0	2	0	0	3	0	0	0	1	0	0	3	0
+operability	monitor feature parity	0	0	1	0	3	2	0	0	1	0	2	1	3
+monitoring	monitor feature parity	4	4	4	4	2	4	3	3	4	4	3	3	4
+discoverability	monitor feature parity	0	0	0	0	0	0	0	0	0	0	0	0	0
+readability	monitor feature parity	0	0	0	0	0	0	0	0	0	0	0	0	0
+traceability	monitor feature parity	0	0	0	0	0	0	0	0	0	0	0	0	0
+understandability	monitor feature parity	3	1	1	0	1	1	0	0	4	0	0	1	0
+usability	monitor feature parity	1	0	0	1	1	1	0	1	2	0	2	0	0
+debuggability	monitor feature parity	2	3	2	1	1	4	2	3	4	4	3	2	3
+explainability	monitor feature parity	0	0	0	0	0	0	0	0	0	0	0	0	0
+fairness	monitor feature parity	0	0	0	0	0	0	0	0	0	0	0	0	0
+ownership	monitor feature parity	0	0	0	0	0	0	0	0	0	0	0	0	0
+standards-compliance	monitor feature parity	0	0	0	0	0	0	0	0	0	0	0	0	0
+vulnerability	monitor feature parity	0	0	0	0	0	0	0	0	0	0	0	0	0
+accuracy	monitor feature drift	0	2	4	3	3	0	3	4	4	4	3	3	2
+effectiveness	monitor feature drift	0	2	4	3	3	2	2	3	4	1	3	3	2
+responsiveness	monitor feature drift	0	0	0	0	0	0	0	0	0	0	0	0	0
+reusability	monitor feature drift	2	1	0	2	1	0	0	0	2	0	1	1	0
+cost-effectiveness	monitor feature drift	0	1	0	2	0	0	0	2	0	3	0	1	1
+efficiency	monitor feature drift	0	1	0	0	0	0	2	2	4	2	1	1	1
+availability	monitor feature drift	0	0	0	0	0	0	0	0	0	0	0	0	0
+resilience	monitor feature drift	0	0	0	0	0	0	0	0	0	0	0	0	0
+adaptability	monitor feature drift	0	0	0	0	0	0	0	0	0	0	0	0	0
+scalability	monitor feature drift	0	0	0	0	0	0	0	0	0	0	0	0	0
+extensibility	monitor feature drift	0	0	0	0	0	0	0	0	0	0	0	0	0
+maintainability	monitor feature drift	0	0	0	0	0	0	0	0	0	0	0	0	0
+modularity	monitor feature drift	0	0	0	0	0	0	0	0	0	0	0	0	0
+testability	monitor feature drift	0	0	0	0	0	0	0	0	0	0	0	0	0
+deployability	monitor feature drift	0	0	0	0	0	0	0	0	0	0	0	0	0
+repeatability	monitor feature drift	0	2	0	1	0	1	0	0	1	0	0	1	0
+operability	monitor feature drift	0	0	0	0	0	0	0	0	0	0	0	0	0
+monitoring	monitor feature drift	4	4	4	4	3	4	3	4	4	4	3	1	3
+discoverability	monitor feature drift	0	0	0	0	0	0	0	0	0	0	0	0	0
+readability	monitor feature drift	0	0	0	0	0	0	0	0	0	0	0	0	0
+traceability	monitor feature drift	0	0	0	0	0	0	0	0	0	0	0	0	0
+understandability	monitor feature drift	3	0	0	0	3	1	0	0	3	3	0	1	0
+usability	monitor feature drift	1	1	0	2	3	1	0	1	0	0	2	1	0
+debuggability	monitor feature drift	2	3	2	0	3	4	3	3	2	4	3	2	3
+explainability	monitor feature drift	0	0	0	0	0	0	0	0	0	0	0	0	0
+fairness	monitor feature drift	0	0	0	0	0	0	0	0	0	0	0	0	0
+ownership	monitor feature drift	0	0	0	0	0	0	0	0	0	0	0	0	0
+standards-compliance	monitor feature drift	0	0	0	0	0	0	0	0	0	0	0	0	0
+vulnerability	monitor feature drift	0	0	0	0	0	0	0	0	0	0	0	0	0
+accuracy	alerting	0	1	2	2	0	0	1	3	1	2	2	1	2
+effectiveness	alerting	0	1	0	2	1	1	1	3	2	3	2	2	2
+responsiveness	alerting	0	3	4	2	1	1	1	3	2	1	2	3	2
+reusability	alerting	0	1	0	0	0	1	0	0	2	0	1	1	0
+cost-effectiveness	alerting	2	2	1	1	0	2	0	3	0	2	1	2	2
+efficiency	alerting	1	2	0	2	0	2	1	3	3	1	2	2	2
+availability	alerting	0	0	0	0	0	0	0	0	0	0	0	0	0
+resilience	alerting	0	0	0	0	0	0	0	0	0	0	0	0	0
+adaptability	alerting	0	0	0	0	0	0	0	0	0	0	0	0	0
+scalability	alerting	0	0	0	0	0	0	0	0	0	0	0	0	0
+extensibility	alerting	0	0	0	0	0	0	0	0	0	0	0	0	0
+maintainability	alerting	0	0	0	0	0	0	0	0	0	0	0	0	0
+modularity	alerting	0	0	0	0	0	0	0	0	0	0	0	0	0
+testability	alerting	0	0	0	0	0	0	0	0	0	0	0	0	0
+deployability	alerting	0	0	1	0	1	4	0	0	3	0	3	2	2
+repeatability	alerting	0	0	0	0	0	0	0	0	0	0	0	0	0
+operability	alerting	0	0	1	1	1	4	1	0	3	0	2	4	2
+monitoring	alerting	3	4	4	4	3	4	3	4	4	4	4	4	1
+discoverability	alerting	0	0	0	0	0	0	0	0	0	0	0	0	0
+readability	alerting	0	0	0	0	0	0	0	0	0	0	0	0	0
+traceability	alerting	0	0	0	0	0	0	0	0	0	0	0	0	0
+understandability	alerting	0	0	0	0	0	0	0	0	0	0	0	0	0
+usability	alerting	0	1	0	1	1	2	0	0	4	0	3	1	0
+debuggability	alerting	2	4	0	1	3	4	3	3	2	3	3	4	0
+explainability	alerting	0	0	0	0	0	0	0	0	0	0	0	0	0
+fairness	alerting	0	0	0	0	0	0	0	0	0	0	0	0	0
+ownership	alerting	0	0	0	0	0	0	0	0	0	0	0	0	0
+standards-compliance	alerting	0	0	0	0	0	0	0	0	0	0	0	0	0
+vulnerability	alerting	0	0	0	0	0	0	0	0	0	0	0	0	0
+accuracy	automate the ML lifecycle	0	0	0	0	0	0	0	0	0	0	0	0	0
+effectiveness	automate the ML lifecycle	0	0	0	0	0	0	0	0	0	0	0	0	0
+responsiveness	automate the ML lifecycle	0	0	0	0	0	0	0	0	0	0	0	0	0
+reusability	automate the ML lifecycle	0	0	0	0	0	0	0	0	0	0	0	0	0
+cost-effectiveness	automate the ML lifecycle	3	4	2	1	0	3	1	3	4	4	4	2	1
+efficiency	automate the ML lifecycle	4	1	3	3	0	3	1	3	1	3	3	2	0
+availability	automate the ML lifecycle	2	2	0	1	1	4	2	3	3	2	2	2	3
+resilience	automate the ML lifecycle	0	2	0	0	1	3	2	1	2	2	1	3	0
+adaptability	automate the ML lifecycle	0	1	1	2	3	2	1	2	2	2	1	1	0
+scalability	automate the ML lifecycle	0	1	2	1	1	4	0	3	2	3	3	3	0
+extensibility	automate the ML lifecycle	0	4	2	3	3	0	1	3	1	2	1	3	1
+maintainability	automate the ML lifecycle	2	4	4	4	3	2	1	2	4	4	3	3	1
+modularity	automate the ML lifecycle	0	4	0	0	0	0	0	0	0	0	0	0	0
+testability	automate the ML lifecycle	0	3	3	0	3	1	1	2	3	3	0	3	1
+deployability	automate the ML lifecycle	3	4	4	4	3	4	4	4	1	4	3	4	3
+repeatability	automate the ML lifecycle	4	4	4	3	3	4	4	4	4	4	4	3	3
+operability	automate the ML lifecycle	0	3	3	0	3	4	2	4	3	2	3	1	3
+monitoring	automate the ML lifecycle	0	2	1	1	3	3	1	2	4	3	1	1	0
+discoverability	automate the ML lifecycle	0	0	0	0	0	0	0	0	0	0	0	0	0
+readability	automate the ML lifecycle	0	0	0	0	0	0	0	0	0	0	0	0	0
+traceability	automate the ML lifecycle	0	0	0	0	0	0	0	0	0	0	0	0	0
+understandability	automate the ML lifecycle	0	0	0	0	0	0	0	0	0	0	0	0	0
+usability	automate the ML lifecycle	0	0	0	0	0	0	0	0	0	0	0	0	0
+debuggability	automate the ML lifecycle	0	0	0	0	0	0	0	0	0	0	0	0	0
+explainability	automate the ML lifecycle	0	0	0	0	0	0	0	0	0	0	0	0	0
+fairness	automate the ML lifecycle	0	0	0	0	0	0	0	0	0	0	0	0	0
+ownership	automate the ML lifecycle	0	0	0	0	0	0	0	0	0	0	0	0	0
+standards-compliance	automate the ML lifecycle	0	0	0	0	0	0	0	0	0	0	0	0	0
+vulnerability	automate the ML lifecycle	0	0	0	0	0	0	0	0	0	0	0	0	0
+accuracy	automated tests	0	0	0	0	0	0	0	0	0	0	0	0	0
+effectiveness	automated tests	0	0	0	0	0	0	0	0	0	0	0	0	0
+responsiveness	automated tests	0	0	0	0	0	0	0	0	0	0	0	0	0
+reusability	automated tests	0	0	0	0	0	0	0	0	0	0	0	0	0
+cost-effectiveness	automated tests	1	3	2	1	1	2	0	1	0	2	3	2	0
+efficiency	automated tests	1	0	0	1	1	2	2	3	0	3	3	1	2
+availability	automated tests	1	0	0	0	1	3	2	0	1	2	2	1	3
+resilience	automated tests	2	0	0	1	1	3	3	0	4	2	2	3	4
+adaptability	automated tests	0	0	3	0	3	1	3	3	3	2	2	1	2
+scalability	automated tests	0	0	0	0	0	0	0	0	0	0	0	0	0
+extensibility	automated tests	0	3	4	2	3	4	3	2	3	2	2	0	0
+maintainability	automated tests	4	3	4	3	3	4	4	3	4	4	3	2	3
+modularity	automated tests	0	2	3	2	3	4	3	4	1	2	1	3	1
+testability	automated tests	1	4	4	4	3	4	4	4	4	4	4	4	4
+deployability	automated tests	0	0	3	0	3	4	3	3	3	3	3	4	3
+repeatability	automated tests	3	2	3	0	3	4	1	1	3	4	1	3	1
+operability	automated tests	0	2	3	0	3	1	2	3	3	2	2	2	3
+monitoring	automated tests	0	2	1	0	3	1	0	0	4	2	1	3	1
+discoverability	automated tests	0	0	0	0	0	0	0	0	0	0	0	0	0
+readability	automated tests	0	0	0	0	0	0	0	0	0	0	0	0	0
+traceability	automated tests	0	0	0	0	0	0	0	0	0	0	0	0	0
+understandability	automated tests	0	0	0	0	0	0	0	0	0	0	0	0	0
+usability	automated tests	0	0	0	0	0	0	0	0	0	0	0	0	0
+debuggability	automated tests	0	0	0	0	0	0	0	0	0	0	0	0	0
+explainability	automated tests	0	0	0	0	0	0	0	0	0	0	0	0	0
+fairness	automated tests	0	0	0	0	0	0	0	0	0	0	0	0	0
+ownership	automated tests	0	0	0	0	0	0	0	0	0	0	0	0	0
+standards-compliance	automated tests	0	0	0	0	0	0	0	0	0	0	0	0	0
+vulnerability	automated tests	0	0	0	0	0	0	0	0	0	0	0	0	0
+accuracy	fast development lifecycle feedback loops for easier debugging	0	0	0	0	0	0	0	0	0	0	0	0	0
+effectiveness	fast development lifecycle feedback loops for easier debugging	0	0	0	0	0	0	0	0	0	0	0	0	0
+responsiveness	fast development lifecycle feedback loops for easier debugging	0	0	0	0	0	0	0	0	0	0	0	0	0
+reusability	fast development lifecycle feedback loops for easier debugging	0	0	0	0	0	0	0	0	0	0	0	0	0
+cost-effectiveness	fast development lifecycle feedback loops for easier debugging	0	4	2	1	0	3	1	3	4	3	3	4	1
+efficiency	fast development lifecycle feedback loops for easier debugging	2	0	0	2	0	4	2	4	4	3	3	3	0
+availability	fast development lifecycle feedback loops for easier debugging	1	1	0	0	1	1	3	4	0	2	3	1	0
+resilience	fast development lifecycle feedback loops for easier debugging	2	1	0	0	1	3	3	3	4	2	1	2	0
+adaptability	fast development lifecycle feedback loops for easier debugging	0	0	2	0	1	4	3	1	4	2	3	3	0
+scalability	fast development lifecycle feedback loops for easier debugging	0	0	0	0	0	0	0	0	0	0	0	0	0
+extensibility	fast development lifecycle feedback loops for easier debugging	1	1	4	2	2	4	2	0	3	1	3	3	0
+maintainability	fast development lifecycle feedback loops for easier debugging	3	3	4	1	2	4	3	2	4	3	3	3	0
+modularity	fast development lifecycle feedback loops for easier debugging	0	1	0	3	0	1	0	2	2	2	1	1	0
+testability	fast development lifecycle feedback loops for easier debugging	1	3	3	2	1	2	2	4	4	3	3	4	3
+deployability	fast development lifecycle feedback loops for easier debugging	1	1	2	1	1	3	4	3	4	3	3	4	0
+repeatability	fast development lifecycle feedback loops for easier debugging	0	2	2	3	1	1	4	0	3	1	0	4	0
+operability	fast development lifecycle feedback loops for easier debugging	0	0	0	0	0	0	0	0	0	0	0	0	0
+monitoring	fast development lifecycle feedback loops for easier debugging	0	0	0	0	0	0	0	0	0	0	0	0	0
+discoverability	fast development lifecycle feedback loops for easier debugging	0	0	0	0	0	0	0	0	0	0	0	0	0
+readability	fast development lifecycle feedback loops for easier debugging	0	0	0	0	0	0	0	0	0	0	0	0	0
+traceability	fast development lifecycle feedback loops for easier debugging	0	0	0	0	0	0	0	0	0	0	0	0	0
+understandability	fast development lifecycle feedback loops for easier debugging	0	0	0	0	0	0	0	0	0	0	0	0	0
+usability	fast development lifecycle feedback loops for easier debugging	0	0	0	0	0	0	0	0	0	0	0	0	0
+debuggability	fast development lifecycle feedback loops for easier debugging	0	0	0	0	0	0	0	0	0	0	0	0	0
+explainability	fast development lifecycle feedback loops for easier debugging	0	0	0	0	0	0	0	0	0	0	0	0	0
+fairness	fast development lifecycle feedback loops for easier debugging	0	0	0	0	0	0	0	0	0	0	0	0	0
+ownership	fast development lifecycle feedback loops for easier debugging	0	0	0	0	0	0	0	0	0	0	0	0	0
+standards-compliance	fast development lifecycle feedback loops for easier debugging	0	0	0	0	0	0	0	0	0	0	0	0	0
+vulnerability	fast development lifecycle feedback loops for easier debugging	0	0	0	0	0	0	0	0	0	0	0	0	0
+accuracy	achieve feature parity	4	3	4	4	2	2	3	2	3	4	3	4	2
+effectiveness	achieve feature parity	4	3	4	3	2	4	3	4	3	4	3	2	2
+responsiveness	achieve feature parity	0	0	0	0	0	0	0	0	0	0	0	0	0
+reusability	achieve feature parity	0	0	0	0	0	0	0	0	0	0	0	0	0
+cost-effectiveness	achieve feature parity	3	2	0	2	1	2	1	3	3	4	0	1	0
+efficiency	achieve feature parity	3	2	0	2	0	2	3	2	3	3	1	1	2
+availability	achieve feature parity	0	0	0	0	0	0	0	0	0	0	0	0	0
+resilience	achieve feature parity	2	3	0	1	1	4	3	0	3	4	3	2	2
+adaptability	achieve feature parity	1	0	0	0	1	4	2	0	1	1	1	1	0
+scalability	achieve feature parity	0	0	0	0	0	0	0	0	0	0	0	0	0
+extensibility	achieve feature parity	0	0	0	0	0	0	0	0	0	0	0	0	0
+maintainability	achieve feature parity	0	0	0	0	0	0	0	0	0	0	0	0	0
+modularity	achieve feature parity	0	0	0	0	0	0	0	0	0	0	0	0	0
+testability	achieve feature parity	0	0	0	0	0	0	0	0	0	0	0	0	0
+deployability	achieve feature parity	0	0	0	0	0	0	0	0	0	0	0	0	0
+repeatability	achieve feature parity	0	0	0	0	0	0	0	0	0	0	0	0	0
+operability	achieve feature parity	0	0	0	0	0	0	0	0	0	0	0	0	0
+monitoring	achieve feature parity	0	0	0	0	0	0	0	0	0	0	0	0	0
+discoverability	achieve feature parity	0	0	0	0	0	0	0	0	0	0	0	0	0
+readability	achieve feature parity	0	0	0	0	0	0	0	0	0	0	0	0	0
+traceability	achieve feature parity	0	0	0	0	0	0	0	0	0	0	0	0	0
+understandability	achieve feature parity	0	0	0	0	0	0	0	0	0	0	0	0	0
+usability	achieve feature parity	0	0	0	0	0	0	0	0	0	0	0	0	0
+debuggability	achieve feature parity	0	0	0	0	0	0	0	0	0	0	0	0	0
+explainability	achieve feature parity	2	1	0	0	1	0	1	3	3	3	0	2	0
+fairness	achieve feature parity	1	0	0	0	0	2	0	4	4	4	1	3	0
+ownership	achieve feature parity	0	0	0	0	0	0	0	0	0	0	0	0	0
+standards-compliance	achieve feature parity	0	0	0	0	0	0	0	0	0	0	0	0	0
+vulnerability	achieve feature parity	0	0	0	0	0	0	0	0	0	0	0	0	0
+accuracy	keep historical features up to date	4	3	4	4	3	2	1	4	4	4	3	2	2
+effectiveness	keep historical features up to date	3	3	4	3	3	4	1	3	4	4	3	4	0
+responsiveness	keep historical features up to date	0	0	0	0	0	0	0	0	0	0	0	0	0
+reusability	keep historical features up to date	0	0	0	0	0	0	0	0	0	0	0	0	0
+cost-effectiveness	keep historical features up to date	3	3	0	2	0	0	1	1	3	4	1	2	0
+efficiency	keep historical features up to date	3	2	0	0	0	0	1	0	4	4	1	1	0
+availability	keep historical features up to date	0	2	0	0	0	1	0	0	0	1	2	0	0
+resilience	keep historical features up to date	3	1	0	0	0	3	1	3	2	3	3	2	2
+adaptability	keep historical features up to date	1	2	0	4	0	0	2	0	0	3	3	2	2
+scalability	keep historical features up to date	0	0	0	0	0	0	0	0	0	0	0	0	0
+extensibility	keep historical features up to date	0	0	0	0	0	0	0	0	0	0	0	0	0
+maintainability	keep historical features up to date	0	0	0	0	0	0	0	0	0	0	0	0	0
+modularity	keep historical features up to date	0	0	0	0	0	0	0	0	0	0	0	0	0
+testability	keep historical features up to date	0	0	0	0	0	0	0	0	0	0	0	0	0
+deployability	keep historical features up to date	0	0	0	0	0	0	0	0	0	0	0	0	0
+repeatability	keep historical features up to date	0	0	0	0	0	0	0	0	0	0	0	0	0
+operability	keep historical features up to date	0	0	0	0	0	0	0	0	0	0	0	0	0
+monitoring	keep historical features up to date	0	0	0	0	0	0	0	0	0	0	0	0	0
+discoverability	keep historical features up to date	0	0	0	0	0	0	0	0	0	0	0	0	0
+readability	keep historical features up to date	0	0	0	0	0	0	0	0	0	0	0	0	0
+traceability	keep historical features up to date	0	0	0	0	0	0	0	0	0	0	0	0	0
+understandability	keep historical features up to date	0	0	0	0	0	0	0	0	0	0	0	0	0
+usability	keep historical features up to date	0	0	0	0	0	0	0	0	0	0	0	0	0
+debuggability	keep historical features up to date	0	0	0	0	0	0	0	0	0	0	0	0	0
+explainability	keep historical features up to date	1	0	0	0	3	0	1	3	1	0	0	2	1
+fairness	keep historical features up to date	1	0	0	2	1	0	1	3	3	4	1	2	1
+ownership	keep historical features up to date	0	0	0	0	0	0	0	0	0	0	0	0	0
+standards-compliance	keep historical features up to date	0	0	0	0	0	0	0	0	0	0	0	0	0
+vulnerability	keep historical features up to date	0	0	0	0	0	0	0	0	0	0	0	0	0
+accuracy	remove redundant features	1	1	1	3	3	4	2	4	3	4	3	4	2
+effectiveness	remove redundant features	1	1	0	1	0	4	2	4	4	4	3	2	1
+responsiveness	remove redundant features	4	2	0	1	3	0	1	4	3	3	3	1	1
+reusability	remove redundant features	2	1	2	3	0	3	1	0	4	1	3	1	0
+cost-effectiveness	remove redundant features	4	4	4	1	1	3	3	4	4	4	3	1	1
+efficiency	remove redundant features	4	4	4	3	1	2	2	4	4	3	4	1	1
+availability	remove redundant features	2	0	0	1	0	1	1	3	1	0	3	0	0
+resilience	remove redundant features	2	1	0	1	0	1	1	2	2	1	3	0	0
+adaptability	remove redundant features	0	0	0	0	0	0	0	0	0	0	0	0	0
+scalability	remove redundant features	3	0	0	1	3	1	1	2	3	3	3	2	2
+extensibility	remove redundant features	0	0	0	0	0	0	0	0	0	0	0	0	0
+maintainability	remove redundant features	0	0	0	0	0	0	0	0	0	0	0	0	0
+modularity	remove redundant features	0	0	0	0	0	0	0	0	0	0	0	0	0
+testability	remove redundant features	0	0	0	0	0	0	0	0	0	0	0	0	0
+deployability	remove redundant features	0	0	0	0	0	0	0	0	0	0	0	0	0
+repeatability	remove redundant features	0	0	0	0	0	0	0	0	0	0	0	0	0
+operability	remove redundant features	0	0	0	0	0	0	0	0	0	0	0	0	0
+monitoring	remove redundant features	0	0	0	0	0	0	0	0	0	0	0	0	0
+discoverability	remove redundant features	0	0	0	0	0	0	0	0	0	0	0	0	0
+readability	remove redundant features	0	0	0	0	0	0	0	0	0	0	0	0	0
+traceability	remove redundant features	0	0	0	0	0	0	0	0	0	0	0	0	0
+understandability	remove redundant features	0	0	0	0	0	0	0	0	0	0	0	0	0
+usability	remove redundant features	0	0	0	0	0	0	0	0	0	0	0	0	0
+debuggability	remove redundant features	0	0	0	0	0	0	0	0	0	0	0	0	0
+explainability	remove redundant features	3	2	2	3	0	1	1	3	2	4	4	4	3
+fairness	remove redundant features	2	0	0	1	0	2	0	3	4	4	2	3	0
+ownership	remove redundant features	0	0	0	0	0	0	0	0	0	0	0	0	0
+standards-compliance	remove redundant features	0	0	0	0	0	0	0	0	0	0	0	0	0
+vulnerability	remove redundant features	1	0	0	0	0	2	1	2	4	3	2	1	3
+accuracy	dealing with feedback loos in experimentation	3	4	0	0	0	0	0	0	0	0	0	0	0
+effectiveness	dealing with feedback loos in experimentation	3	3	4	0	0	0	0	0	0	0	0	0	0
+responsiveness	dealing with feedback loos in experimentation	0	0	0	0	0	0	0	0	0	0	0	0	0
+reusability	dealing with feedback loos in experimentation	2	1	0	0	0	0	0	0	0	0	0	0	0
+cost-effectiveness	dealing with feedback loos in experimentation	3	1	0	0	0	0	0	0	0	0	0	0	0
+efficiency	dealing with feedback loos in experimentation	1	1	0	0	0	0	0	0	0	0	0	0	0
+availability	dealing with feedback loos in experimentation	0	0	0	0	0	0	0	0	0	0	0	0	0
+resilience	dealing with feedback loos in experimentation	3	3	0	0	0	0	0	0	0	0	0	0	0
+adaptability	dealing with feedback loos in experimentation	2	2	0	0	0	0	0	0	0	0	0	0	0
+scalability	dealing with feedback loos in experimentation	0	0	0	0	0	0	0	0	0	0	0	0	0
+extensibility	dealing with feedback loos in experimentation	0	0	0	0	0	0	0	0	0	0	0	0	0
+maintainability	dealing with feedback loos in experimentation	0	0	0	0	0	0	0	0	0	0	0	0	0
+modularity	dealing with feedback loos in experimentation	0	0	0	0	0	0	0	0	0	0	0	0	0
+testability	dealing with feedback loos in experimentation	0	0	0	0	0	0	0	0	0	0	0	0	0
+deployability	dealing with feedback loos in experimentation	0	0	0	0	0	0	0	0	0	0	0	0	0
+repeatability	dealing with feedback loos in experimentation	0	0	0	0	0	0	0	0	0	0	0	0	0
+operability	dealing with feedback loos in experimentation	0	0	0	0	0	0	0	0	0	0	0	0	0
+monitoring	dealing with feedback loos in experimentation	0	0	0	0	0	0	0	0	0	0	0	0	0
+discoverability	dealing with feedback loos in experimentation	0	0	0	0	0	0	0	0	0	0	0	0	0
+readability	dealing with feedback loos in experimentation	0	0	0	0	0	0	0	0	0	0	0	0	0
+traceability	dealing with feedback loos in experimentation	0	0	0	0	0	0	0	0	0	0	0	0	0
+understandability	dealing with feedback loos in experimentation	0	0	0	0	0	0	0	0	0	0	0	0	0
+usability	dealing with feedback loos in experimentation	0	0	0	0	0	0	0	0	0	0	0	0	0
+debuggability	dealing with feedback loos in experimentation	0	0	0	0	0	0	0	0	0	0	0	0	0
+explainability	dealing with feedback loos in experimentation	1	0	2	0	0	0	0	0	0	0	0	0	0
+fairness	dealing with feedback loos in experimentation	0	0	0	0	0	0	0	0	0	0	0	0	0
+ownership	dealing with feedback loos in experimentation	0	0	0	0	0	0	0	0	0	0	0	0	0
+standards-compliance	dealing with feedback loos in experimentation	0	0	0	0	0	0	0	0	0	0	0	0	0
+vulnerability	dealing with feedback loos in experimentation	0	0	0	0	0	0	0	0	0	0	0	0	0
+accuracy	peer code review	2	1	2	1	0	3	2	3	1	4	2	3	2
+effectiveness	peer code review	2	1	2	1	0	3	3	4	3	3	2	3	2
+responsiveness	peer code review	1	1	0	1	3	2	1	2	1	2	2	3	2
+reusability	peer code review	1	1	0	2	3	4	2	0	3	3	3	2	2
+cost-effectiveness	peer code review	0	0	0	0	0	0	0	0	0	0	0	0	0
+efficiency	peer code review	0	0	0	0	0	0	0	0	0	0	0	0	0
+availability	peer code review	0	0	0	0	0	0	0	0	0	0	0	0	0
+resilience	peer code review	2	1	0	1	3	2	3	0	2	4	2	2	2
+adaptability	peer code review	1	1	1	1	3	2	3	0	0	3	2	2	2
+scalability	peer code review	1	0	0	1	3	2	1	0	2	1	0	2	2
+extensibility	peer code review	2	4	3	1	3	4	3	0	2	1	2	2	1
+maintainability	peer code review	2	4	2	3	3	4	3	0	4	3	2	3	3
+modularity	peer code review	2	3	0	3	3	3	3	3	4	4	1	3	2
+testability	peer code review	2	2	0	3	3	3	3	3	2	4	3	3	2
+deployability	peer code review	0	0	0	0	0	0	0	0	0	0	0	0	0
+repeatability	peer code review	0	0	0	0	0	0	0	0	0	0	0	0	0
+operability	peer code review	0	0	0	0	0	0	0	0	0	0	0	0	0
+monitoring	peer code review	0	0	0	0	0	0	0	0	0	0	0	0	0
+discoverability	peer code review	0	0	2	1	1	4	1	0	1	0	2	4	0
+readability	peer code review	4	4	3	4	3	4	4	3	3	4	2	4	3
+traceability	peer code review	1	0	0	1	3	2	2	3	0	3	1	2	1
+understandability	peer code review	3	1	4	3	3	4	3	4	2	4	3	4	2
+usability	peer code review	0	1	1	1	3	2	3	3	0	1	2	1	2
+debuggability	peer code review	0	2	0	3	3	2	3	3	2	3	2	4	2
+explainability	peer code review	0	0	0	0	0	0	0	0	0	0	0	0	0
+fairness	peer code review	0	0	0	0	0	0	0	0	0	0	0	0	0
+ownership	peer code review	0	0	0	0	0	0	0	0	0	0	0	0	0
+standards-compliance	peer code review	0	0	0	0	0	0	0	0	0	0	0	0	0
+vulnerability	peer code review	0	0	0	0	0	0	0	0	0	0	0	0	0
+accuracy	offline metric correlates with production metric	3	4	0	4	0	3	4	0	4	4	2	3	2
+effectiveness	offline metric correlates with production metric	4	4	4	4	0	4	3	4	4	2	3	3	2
+responsiveness	offline metric correlates with production metric	0	0	0	0	0	0	0	0	0	0	0	0	0
+reusability	offline metric correlates with production metric	0	0	0	0	0	0	0	0	0	0	0	0	0
+cost-effectiveness	offline metric correlates with production metric	0	0	0	0	0	0	0	0	0	0	0	0	0
+efficiency	offline metric correlates with production metric	0	0	0	0	0	0	0	0	0	0	0	0	0
+availability	offline metric correlates with production metric	0	0	0	0	0	0	0	0	0	0	0	0	0
+resilience	offline metric correlates with production metric	0	1	0	1	2	3	3	0	2	4	1	3	2
+adaptability	offline metric correlates with production metric	0	0	0	0	0	0	0	0	0	0	0	0	0
+scalability	offline metric correlates with production metric	0	0	0	0	0	0	0	0	0	0	0	0	0
+extensibility	offline metric correlates with production metric	0	1	3	0	0	2	0	2	3	2	3	0	0
+maintainability	offline metric correlates with production metric	0	0	2	1	3	3	0	0	0	2	3	0	0
+modularity	offline metric correlates with production metric	0	0	0	0	0	0	0	0	0	0	0	0	0
+testability	offline metric correlates with production metric	0	0	3	1	0	0	0	0	0	3	4	3	2
+deployability	offline metric correlates with production metric	0	0	0	0	0	0	0	0	0	0	0	0	0
+repeatability	offline metric correlates with production metric	0	0	0	0	0	0	0	0	0	0	0	0	0
+operability	offline metric correlates with production metric	0	0	0	0	0	0	0	0	0	0	0	0	0
+monitoring	offline metric correlates with production metric	0	0	0	0	0	0	0	0	0	0	0	0	0
+discoverability	offline metric correlates with production metric	0	0	0	0	0	0	0	0	0	0	0	0	0
+readability	offline metric correlates with production metric	0	0	0	0	0	0	0	0	0	0	0	0	0
+traceability	offline metric correlates with production metric	0	2	0	1	1	0	0	0	0	3	0	1	0
+understandability	offline metric correlates with production metric	0	1	0	0	0	1	0	0	3	3	0	2	0
+usability	offline metric correlates with production metric	0	3	0	1	0	1	0	3	1	2	3	0	2
+debuggability	offline metric correlates with production metric	0	0	1	1	1	0	2	0	2	4	3	0	3
+explainability	offline metric correlates with production metric	0	0	0	0	0	0	0	0	0	0	0	0	0
+fairness	offline metric correlates with production metric	0	0	0	0	0	0	0	0	0	0	0	0	0
+ownership	offline metric correlates with production metric	0	0	0	0	0	0	0	0	0	0	0	0	0
+standards-compliance	offline metric correlates with production metric	0	0	0	0	0	0	0	0	0	0	0	0	0
+vulnerability	offline metric correlates with production metric	0	0	0	0	0	0	0	0	0	0	0	0	0
+accuracy	mimic production setting in offline evalutation	4	2	4	3	2	4	3	3	2	4	2	4	2
+effectiveness	mimic production setting in offline evalutation	4	2	4	3	3	4	3	3	3	3	3	4	1
+responsiveness	mimic production setting in offline evalutation	0	0	0	0	0	0	0	0	0	0	0	0	0
+reusability	mimic production setting in offline evalutation	0	1	0	0	0	2	2	3	0	2	1	0	0
+cost-effectiveness	mimic production setting in offline evalutation	0	0	0	0	0	0	0	0	0	0	0	0	0
+efficiency	mimic production setting in offline evalutation	0	0	0	0	0	0	0	0	0	0	0	0	0
+availability	mimic production setting in offline evalutation	0	3	0	0	0	2	2	0	2	2	3	0	0
+resilience	mimic production setting in offline evalutation	0	3	0	1	0	3	3	0	3	2	3	0	0
+adaptability	mimic production setting in offline evalutation	0	0	0	0	0	0	0	0	0	0	0	0	0
+scalability	mimic production setting in offline evalutation	0	0	0	0	0	0	0	0	0	0	0	0	0
+extensibility	mimic production setting in offline evalutation	1	2	2	0	0	2	1	0	0	1	1	0	0
+maintainability	mimic production setting in offline evalutation	2	3	2	0	0	2	3	2	3	4	3	0	1
+modularity	mimic production setting in offline evalutation	0	1	0	0	0	0	2	0	0	1	0	0	0
+testability	mimic production setting in offline evalutation	2	0	2	1	3	1	3	3	4	4	4	4	4
+deployability	mimic production setting in offline evalutation	0	0	0	0	0	0	0	0	0	0	0	0	0
+repeatability	mimic production setting in offline evalutation	0	0	0	0	0	0	0	0	0	0	0	0	0
+operability	mimic production setting in offline evalutation	0	0	0	0	0	0	0	0	0	0	0	0	0
+monitoring	mimic production setting in offline evalutation	0	0	0	0	0	0	0	0	0	0	0	0	0
+discoverability	mimic production setting in offline evalutation	0	0	0	0	0	0	0	0	0	0	0	0	0
+readability	mimic production setting in offline evalutation	0	0	0	0	0	0	0	0	0	0	0	0	0
+traceability	mimic production setting in offline evalutation	0	0	0	0	0	0	0	0	0	0	0	0	0
+understandability	mimic production setting in offline evalutation	0	1	0	0	0	0	1	0	2	3	0	0	0
+usability	mimic production setting in offline evalutation	0	3	0	1	2	0	1	2	2	1	3	0	0
+debuggability	mimic production setting in offline evalutation	0	3	2	3	2	3	3	2	2	4	4	4	3
+explainability	mimic production setting in offline evalutation	0	0	0	0	0	0	0	0	0	0	0	0	0
+fairness	mimic production setting in offline evalutation	0	0	0	0	0	0	0	0	0	0	0	0	0
+ownership	mimic production setting in offline evalutation	0	0	0	0	0	0	0	0	0	0	0	0	0
+standards-compliance	mimic production setting in offline evalutation	0	0	0	0	0	0	0	0	0	0	0	0	0
+vulnerability	mimic production setting in offline evalutation	0	0	0	0	0	0	0	0	0	0	0	0	0
+accuracy	compare with a baseline	1	1	0	2	1	2	3	3	4	4	2	4	0
+effectiveness	compare with a baseline	1	1	0	2	3	3	3	4	4	4	3	3	2
+responsiveness	compare with a baseline	0	0	0	0	0	0	0	0	0	0	0	0	0
+reusability	compare with a baseline	0	1	0	0	1	0	1	3	1	0	1	1	0
+cost-effectiveness	compare with a baseline	0	0	0	0	0	0	0	0	0	0	0	0	0
+efficiency	compare with a baseline	0	0	0	0	0	0	0	0	0	0	0	0	0
+availability	compare with a baseline	0	0	0	0	0	0	0	0	0	0	0	0	0
+resilience	compare with a baseline	0	0	0	0	0	0	0	0	0	0	0	0	0
+adaptability	compare with a baseline	0	0	0	0	0	0	0	0	0	0	0	0	0
+scalability	compare with a baseline	0	0	0	0	0	0	0	0	0	0	0	0	0
+extensibility	compare with a baseline	0	0	0	0	0	0	0	0	0	0	0	0	0
+maintainability	compare with a baseline	0	0	0	0	0	0	0	0	0	0	0	0	0
+modularity	compare with a baseline	0	0	0	0	0	0	0	0	0	0	0	0	0
+testability	compare with a baseline	0	0	0	0	0	0	0	0	0	0	0	0	0
+deployability	compare with a baseline	0	0	0	0	0	0	0	0	0	0	0	0	0
+repeatability	compare with a baseline	0	0	0	0	0	0	0	0	0	0	0	0	0
+operability	compare with a baseline	0	0	0	0	0	0	0	0	0	0	0	0	0
+monitoring	compare with a baseline	0	0	0	0	0	0	0	0	0	0	0	0	0
+discoverability	compare with a baseline	0	0	0	0	0	0	0	0	0	0	0	0	0
+readability	compare with a baseline	0	0	0	0	0	0	0	0	0	0	0	0	0
+traceability	compare with a baseline	0	2	0	0	0	0	0	0	1	0	0	1	0
+understandability	compare with a baseline	2	0	0	1	1	0	1	0	3	0	1	2	0
+usability	compare with a baseline	0	0	0	0	0	0	0	0	0	0	0	0	0
+debuggability	compare with a baseline	2	0	0	1	1	1	0	0	0	0	3	0	0
+explainability	compare with a baseline	0	0	0	0	0	0	0	0	0	0	0	0	0
+fairness	compare with a baseline	0	0	0	0	0	0	0	0	0	0	0	0	0
+ownership	compare with a baseline	0	0	0	0	0	0	0	0	0	0	0	0	0
+standards-compliance	compare with a baseline	0	0	0	0	0	0	0	0	0	0	0	0	0
+vulnerability	compare with a baseline	0	0	0	0	0	0	0	0	0	0	0	0	0
+accuracy	impact of model staleness is known	2	2	2	2	0	1	2	4	4	4	2	2	2
+effectiveness	impact of model staleness is known	3	2	3	2	2	4	2	3	4	4	3	1	2
+responsiveness	impact of model staleness is known	0	0	0	0	0	0	0	0	0	0	0	0	0
+reusability	impact of model staleness is known	0	2	0	1	3	3	0	1	0	0	3	3	0
+cost-effectiveness	impact of model staleness is known	0	0	0	0	0	0	0	0	0	0	0	0	0
+efficiency	impact of model staleness is known	0	0	0	0	0	0	0	0	0	0	0	0	0
+availability	impact of model staleness is known	0	0	0	0	0	0	0	0	0	0	0	0	0
+resilience	impact of model staleness is known	2	2	0	0	1	2	2	0	4	3	3	4	3
+adaptability	impact of model staleness is known	0	1	0	3	1	1	0	1	3	2	0	2	3
+scalability	impact of model staleness is known	0	0	0	0	0	0	0	0	0	0	0	0	0
+extensibility	impact of model staleness is known	0	0	0	0	0	0	0	0	0	0	0	0	0
+maintainability	impact of model staleness is known	4	1	2	2	3	2	0	0	2	2	2	4	2
+modularity	impact of model staleness is known	0	0	0	0	0	0	0	0	0	0	0	0	0
+testability	impact of model staleness is known	0	0	0	0	0	0	0	0	0	0	0	0	0
+deployability	impact of model staleness is known	0	0	0	0	0	0	0	0	0	0	0	0	0
+repeatability	impact of model staleness is known	0	0	0	0	0	0	0	0	0	0	0	0	0
+operability	impact of model staleness is known	0	0	0	0	0	0	0	0	0	0	0	0	0
+monitoring	impact of model staleness is known	0	0	0	0	0	0	0	0	0	0	0	0	0
+discoverability	impact of model staleness is known	0	0	0	0	0	0	0	0	0	0	0	0	0
+readability	impact of model staleness is known	0	0	0	0	0	0	0	0	0	0	0	0	0
+traceability	impact of model staleness is known	0	0	0	0	0	0	0	0	0	0	0	0	0
+understandability	impact of model staleness is known	2	0	0	1	0	0	0	3	1	0	0	3	0
+usability	impact of model staleness is known	0	2	0	1	1	1	0	3	1	0	2	4	0
+debuggability	impact of model staleness is known	4	3	0	0	1	3	2	0	3	4	0	4	0
+explainability	impact of model staleness is known	0	0	0	0	0	0	0	0	0	0	0	0	0
+fairness	impact of model staleness is known	0	0	0	0	0	0	0	0	0	0	0	0	0
+ownership	impact of model staleness is known	0	0	0	0	0	0	0	0	0	0	0	0	0
+standards-compliance	impact of model staleness is known	0	0	0	0	0	0	0	0	0	0	0	0	0
+vulnerability	impact of model staleness is known	0	0	0	0	0	0	0	0	0	0	0	0	0
+accuracy	code modularity and reusability	0	0	0	0	0	0	0	0	0	0	0	0	0
+effectiveness	code modularity and reusability	0	0	0	0	0	0	0	0	0	0	0	0	0
+responsiveness	code modularity and reusability	0	1	0	0	0	0	1	1	0	1	1	0	0
+reusability	code modularity and reusability	1	0	1	4	3	4	3	4	4	4	4	3	4
+cost-effectiveness	code modularity and reusability	0	0	0	0	0	0	0	0	0	0	0	0	0
+efficiency	code modularity and reusability	0	0	0	0	0	0	0	0	0	0	0	0	0
+availability	code modularity and reusability	0	1	0	0	0	0	0	0	1	2	1	0	1
+resilience	code modularity and reusability	2	2	0	1	3	2	2	0	3	4	3	3	1
+adaptability	code modularity and reusability	0	1	0	1	3	0	2	2	4	1	3	2	3
+scalability	code modularity and reusability	0	1	0	2	0	1	2	2	1	1	3	2	1
+extensibility	code modularity and reusability	3	4	3	4	3	4	3	2	3	2	4	3	3
+maintainability	code modularity and reusability	4	4	4	2	3	4	3	3	4	4	3	4	3
+modularity	code modularity and reusability	4	4	4	4	4	4	4	4	4	4	4	4	4
+testability	code modularity and reusability	4	3	3	3	3	4	3	3	3	4	1	4	3
+deployability	code modularity and reusability	0	0	0	0	0	0	0	0	0	0	0	0	0
+repeatability	code modularity and reusability	0	0	0	0	0	0	0	0	0	0	0	0	0
+operability	code modularity and reusability	0	0	0	0	0	0	0	0	0	0	0	0	0
+monitoring	code modularity and reusability	0	0	0	0	0	0	0	0	0	0	0	0	0
+discoverability	code modularity and reusability	0	0	0	0	0	0	0	0	0	0	0	0	0
+readability	code modularity and reusability	3	3	3	3	3	3	2	1	2	4	2	4	3
+traceability	code modularity and reusability	0	1	0	0	3	4	2	3	1	4	0	2	0
+understandability	code modularity and reusability	2	1	2	0	3	3	2	4	4	4	2	3	0
+usability	code modularity and reusability	0	2	2	1	3	1	3	4	3	3	2	1	1
+debuggability	code modularity and reusability	3	4	3	3	3	4	3	3	4	4	3	4	3
+explainability	code modularity and reusability	0	0	0	0	0	0	0	0	0	0	0	0	0
+fairness	code modularity and reusability	0	0	0	0	0	0	0	0	0	0	0	0	0
+ownership	code modularity and reusability	0	0	0	0	0	0	0	0	0	0	0	0	0
+standards-compliance	code modularity and reusability	0	0	0	0	0	0	0	0	0	0	0	0	0
+vulnerability	code modularity and reusability	0	0	0	0	0	0	0	0	0	0	0	0	0
+accuracy	establish clear success metric before model design	0	2	0	1	0	3	3	3	4	3	1	3	0
+effectiveness	establish clear success metric before model design	3	4	4	3	2	4	4	4	4	4	4	4	2
+responsiveness	establish clear success metric before model design	0	0	0	0	0	0	0	0	0	0	0	0	0
+reusability	establish clear success metric before model design	0	2	0	2	0	0	2	3	0	0	1	1	0
+cost-effectiveness	establish clear success metric before model design	0	0	1	0	0	0	0	0	0	0	0	0	0
+efficiency	establish clear success metric before model design	0	0	2	0	0	0	0	0	0	0	0	0	0
+availability	establish clear success metric before model design	0	0	0	0	0	0	0	0	0	0	0	0	0
+resilience	establish clear success metric before model design	2	1	0	0	0	1	3	1	4	1	1	1	0
+adaptability	establish clear success metric before model design	1	1	0	0	0	1	2	1	0	2	0	1	2
+scalability	establish clear success metric before model design	0	0	0	0	0	0	0	0	0	0	0	0	0
+extensibility	establish clear success metric before model design	2	2	0	0	1	0	0	2	1	1	0	1	0
+maintainability	establish clear success metric before model design	2	2	0	0	0	0	0	2	0	0	0	1	0
+modularity	establish clear success metric before model design	0	0	0	0	0	0	0	0	0	0	0	0	0
+testability	establish clear success metric before model design	0	0	0	0	0	0	0	0	0	0	0	0	0
+deployability	establish clear success metric before model design	0	0	0	0	0	0	0	0	0	0	0	0	0
+repeatability	establish clear success metric before model design	0	0	0	0	0	0	0	0	0	0	0	0	0
+operability	establish clear success metric before model design	0	0	0	0	0	0	0	0	0	0	0	0	0
+monitoring	establish clear success metric before model design	0	0	0	0	0	0	0	0	0	0	0	0	0
+discoverability	establish clear success metric before model design	0	0	0	0	0	0	0	0	0	0	0	0	0
+readability	establish clear success metric before model design	0	1	0	0	0	0	1	0	1	0	1	0	0
+traceability	establish clear success metric before model design	0	4	0	0	0	0	0	0	1	4	0	3	0
+understandability	establish clear success metric before model design	2	3	2	2	1	3	1	3	1	2	1	1	0
+usability	establish clear success metric before model design	0	2	0	1	0	0	1	4	3	0	2	0	0
+debuggability	establish clear success metric before model design	1	0	0	0	0	1	0	0	3	3	1	0	0
+explainability	establish clear success metric before model design	0	0	0	0	0	0	0	0	0	0	0	0	0
+fairness	establish clear success metric before model design	0	0	0	0	0	0	0	0	0	0	0	0	0
+ownership	establish clear success metric before model design	0	0	0	0	0	0	0	0	0	0	0	0	0
+standards-compliance	establish clear success metric before model design	0	0	0	0	0	0	0	0	0	0	0	0	0
+vulnerability	establish clear success metric before model design	0	0	0	0	0	0	0	0	0	0	0	0	0
+accuracy	prevent consequences of using a model as input to another	0	3	3	3	0	4	3	3	3	4	3	2	2
+effectiveness	prevent consequences of using a model as input to another	2	3	4	3	0	4	3	3	3	3	4	1	1
+responsiveness	prevent consequences of using a model as input to another	0	0	0	0	0	0	0	0	0	0	0	0	0
+reusability	prevent consequences of using a model as input to another	0	3	0	1	0	3	3	3	0	3	2	0	0
+cost-effectiveness	prevent consequences of using a model as input to another	0	0	0	0	0	0	0	0	0	0	0	0	0
+efficiency	prevent consequences of using a model as input to another	0	0	0	0	0	0	0	0	0	0	0	0	0
+availability	prevent consequences of using a model as input to another	0	3	0	0	3	2	1	2	2	2	3	0	2
+resilience	prevent consequences of using a model as input to another	4	3	3	1	3	4	3	3	2	4	3	3	0
+adaptability	prevent consequences of using a model as input to another	3	0	0	0	0	2	3	0	3	2	3	2	1
+scalability	prevent consequences of using a model as input to another	0	0	0	0	0	0	0	0	0	0	0	0	0
+extensibility	prevent consequences of using a model as input to another	0	0	0	0	0	0	0	0	0	0	0	0	0
+maintainability	prevent consequences of using a model as input to another	3	3	3	2	0	3	3	3	2	4	3	1	0
+modularity	prevent consequences of using a model as input to another	0	1	0	0	0	2	1	3	0	1	4	0	0
+testability	prevent consequences of using a model as input to another	1	0	0	0	3	1	3	2	4	4	3	0	1
+deployability	prevent consequences of using a model as input to another	0	0	0	0	0	0	0	0	0	0	0	0	0
+repeatability	prevent consequences of using a model as input to another	0	0	0	0	0	0	0	0	0	0	0	0	0
+operability	prevent consequences of using a model as input to another	0	0	0	0	0	0	0	0	0	0	0	0	0
+monitoring	prevent consequences of using a model as input to another	0	0	0	0	0	0	0	0	0	0	0	0	0
+discoverability	prevent consequences of using a model as input to another	0	0	0	0	0	0	0	0	0	0	0	0	0
+readability	prevent consequences of using a model as input to another	0	0	0	0	0	0	0	0	0	0	0	0	0
+traceability	prevent consequences of using a model as input to another	0	1	2	0	3	3	3	3	3	4	2	4	2
+understandability	prevent consequences of using a model as input to another	1	3	0	0	3	1	1	2	2	4	2	1	0
+usability	prevent consequences of using a model as input to another	0	4	0	0	0	0	3	2	3	3	1	0	1
+debuggability	prevent consequences of using a model as input to another	2	3	2	2	3	4	3	1	3	4	3	3	1
+explainability	prevent consequences of using a model as input to another	0	0	0	0	0	0	0	0	0	0	0	0	0
+fairness	prevent consequences of using a model as input to another	0	0	0	0	0	0	0	0	0	0	0	0	0
+ownership	prevent consequences of using a model as input to another	0	0	0	0	0	0	0	0	0	0	0	0	0
+standards-compliance	prevent consequences of using a model as input to another	0	0	0	0	0	0	0	0	0	0	0	0	0
+vulnerability	prevent consequences of using a model as input to another	0	0	0	0	0	0	0	0	0	0	0	0	0
+accuracy	error analysis	2	4	4	2	0	0	3	3	3	4	2	3	3
+effectiveness	error analysis	3	4	2	2	0	3	3	3	3	4	3	1	3
+responsiveness	error analysis	1	0	0	2	0	1	2	3	0	4	3	1	0
+reusability	error analysis	0	1	0	2	1	2	0	0	1	0	0	1	0
+cost-effectiveness	error analysis	0	0	0	0	0	0	0	0	0	0	0	0	0
+efficiency	error analysis	0	0	0	0	0	0	0	0	0	0	0	0	0
+availability	error analysis	0	0	0	0	0	0	0	0	0	0	0	0	0
+resilience	error analysis	2	3	0	4	1	2	3	1	2	4	3	4	2
+adaptability	error analysis	2	3	0	1	0	0	2	0	0	2	2	4	0
+scalability	error analysis	0	0	0	0	0	0	0	0	0	0	0	0	0
+extensibility	error analysis	0	2	2	0	0	0	0	0	1	3	2	2	0
+maintainability	error analysis	0	2	0	1	3	4	3	0	1	4	3	1	2
+modularity	error analysis	0	1	0	0	0	2	0	0	1	0	0	1	0
+testability	error analysis	0	3	0	3	3	4	1	1	4	4	2	4	2
+deployability	error analysis	0	0	0	0	0	0	0	0	0	0	0	0	0
+repeatability	error analysis	0	0	0	0	0	0	0	0	0	0	0	0	0
+operability	error analysis	0	0	0	0	0	0	0	0	0	0	0	0	0
+monitoring	error analysis	0	0	0	0	0	0	0	0	0	0	0	0	0
+discoverability	error analysis	0	0	0	0	0	0	0	0	0	0	0	0	0
+readability	error analysis	0	0	0	0	0	0	0	0	0	0	0	0	0
+traceability	error analysis	0	1	0	0	3	3	4	3	0	4	1	3	0
+understandability	error analysis	3	3	2	0	3	0	0	0	4	1	1	1	0
+usability	error analysis	0	3	0	1	3	0	0	3	0	0	1	1	0
+debuggability	error analysis	4	0	0	4	3	4	4	4	2	4	4	4	1
+explainability	error analysis	0	0	0	0	0	0	0	0	0	0	0	0	0
+fairness	error analysis	0	0	0	0	0	0	0	0	0	0	0	0	0
+ownership	error analysis	0	0	0	0	0	0	0	0	0	0	0	0	0
+standards-compliance	error analysis	0	0	0	0	0	0	0	0	0	0	0	0	0
+vulnerability	error analysis	0	0	0	0	0	0	0	0	0	0	0	0	0
+accuracy	keep model up to date by feeding with new labelled data points	4	3	3	4	2	3	3	4	4	4	3	4	3
+effectiveness	keep model up to date by feeding with new labelled data points	4	4	3	3	2	4	3	3	4	4	3	4	3
+responsiveness	keep model up to date by feeding with new labelled data points	0	0	0	0	0	0	0	0	0	0	0	0	0
+reusability	keep model up to date by feeding with new labelled data points	0	0	0	0	0	0	0	0	0	0	0	0	0
+cost-effectiveness	keep model up to date by feeding with new labelled data points	0	0	0	0	0	0	0	0	0	0	0	0	0
+efficiency	keep model up to date by feeding with new labelled data points	0	0	0	0	0	0	0	0	0	0	0	0	0
+availability	keep model up to date by feeding with new labelled data points	0	3	0	0	0	0	2	0	0	3	3	1	0
+resilience	keep model up to date by feeding with new labelled data points	3	3	0	0	0	3	3	3	4	3	4	3	0
+adaptability	keep model up to date by feeding with new labelled data points	4	4	0	4	0	4	4	3	1	3	3	3	4
+scalability	keep model up to date by feeding with new labelled data points	0	0	0	0	0	0	0	0	0	0	0	0	0
+extensibility	keep model up to date by feeding with new labelled data points	0	3	0	1	0	0	2	0	1	4	3	3	0
+maintainability	keep model up to date by feeding with new labelled data points	0	2	0	3	0	0	3	4	4	4	3	1	0
+modularity	keep model up to date by feeding with new labelled data points	0	2	0	0	0	0	2	1	1	0	0	0	0
+testability	keep model up to date by feeding with new labelled data points	0	1	0	0	0	0	1	3	0	4	0	0	2
+deployability	keep model up to date by feeding with new labelled data points	0	0	0	0	0	0	0	0	0	0	0	0	0
+repeatability	keep model up to date by feeding with new labelled data points	0	0	0	0	0	0	0	0	0	0	0	0	0
+operability	keep model up to date by feeding with new labelled data points	0	0	0	0	0	0	0	0	0	0	0	0	0
+monitoring	keep model up to date by feeding with new labelled data points	0	0	0	0	0	0	0	0	0	0	0	0	0
+discoverability	keep model up to date by feeding with new labelled data points	0	0	0	0	0	0	0	0	0	0	0	0	0
+readability	keep model up to date by feeding with new labelled data points	0	0	0	0	0	0	0	0	0	0	0	0	0
+traceability	keep model up to date by feeding with new labelled data points	0	0	0	0	0	0	0	0	0	0	0	0	0
+understandability	keep model up to date by feeding with new labelled data points	0	0	0	0	0	0	0	0	0	0	0	0	0
+usability	keep model up to date by feeding with new labelled data points	0	1	0	3	0	0	1	0	1	0	2	0	0
+debuggability	keep model up to date by feeding with new labelled data points	0	1	0	0	0	0	0	3	2	3	0	0	0
+explainability	keep model up to date by feeding with new labelled data points	0	0	0	0	0	0	0	0	0	0	0	0	0
+fairness	keep model up to date by feeding with new labelled data points	0	0	0	0	0	0	0	0	0	0	0	0	0
+ownership	keep model up to date by feeding with new labelled data points	0	0	0	0	0	0	0	0	0	0	0	0	0
+standards-compliance	keep model up to date by feeding with new labelled data points	0	0	0	0	0	0	0	0	0	0	0	0	0
+vulnerability	keep model up to date by feeding with new labelled data points	0	0	0	0	0	0	0	0	0	0	0	0	0
+accuracy	AB test all model changes	0	3	0	0	0	0	3	4	3	4	2	1	0
+effectiveness	AB test all model changes	3	4	4	4	3	4	3	4	4	3	2	1	0
+responsiveness	AB test all model changes	0	3	2	1	0	0	3	3	0	1	2	0	0
+reusability	AB test all model changes	0	0	0	0	0	0	0	0	0	0	0	0	0
+cost-effectiveness	AB test all model changes	2	4	4	2	1	2	2	3	1	2	2	1	0
+efficiency	AB test all model changes	3	1	2	2	1	2	2	3	4	3	3	3	0
+availability	AB test all model changes	0	2	0	0	3	0	0	3	0	1	2	0	2
+resilience	AB test all model changes	0	3	3	0	3	3	2	3	4	2	2	4	2
+adaptability	AB test all model changes	0	3	0	0	0	0	1	0	1	3	2	3	2
+scalability	AB test all model changes	0	1	2	0	3	2	0	0	0	1	1	1	1
+extensibility	AB test all model changes	0	0	0	0	0	0	0	0	0	0	0	0	0
+maintainability	AB test all model changes	0	0	0	0	0	0	0	0	0	0	0	0	0
+modularity	AB test all model changes	0	0	0	0	0	0	0	0	0	0	0	0	0
+testability	AB test all model changes	0	0	0	0	0	0	0	0	0	0	0	0	0
+deployability	AB test all model changes	0	0	0	0	0	0	0	0	0	0	0	0	0
+repeatability	AB test all model changes	0	0	0	0	0	0	0	0	0	0	0	0	0
+operability	AB test all model changes	0	0	0	0	0	0	0	0	0	0	0	0	0
+monitoring	AB test all model changes	0	0	0	0	0	0	0	0	0	0	0	0	0
+discoverability	AB test all model changes	0	0	0	0	0	0	0	0	0	0	0	0	0
+readability	AB test all model changes	0	0	0	0	0	0	0	0	0	0	0	0	0
+traceability	AB test all model changes	0	0	0	0	0	0	0	0	0	0	0	0	0
+understandability	AB test all model changes	0	0	0	0	0	0	0	0	0	0	0	0	0
+usability	AB test all model changes	0	0	0	0	0	0	0	0	0	0	0	0	0
+debuggability	AB test all model changes	0	0	0	0	0	0	0	0	0	0	0	0	0
+explainability	AB test all model changes	0	0	0	0	0	0	0	0	0	0	0	0	0
+fairness	AB test all model changes	0	0	0	0	0	0	0	0	0	0	0	0	0
+ownership	AB test all model changes	0	0	0	0	0	0	0	0	0	0	0	0	0
+standards-compliance	AB test all model changes	0	0	0	0	0	0	0	0	0	0	0	0	0
+vulnerability	AB test all model changes	0	0	0	0	0	0	0	0	0	0	0	0	0
+accuracy	do not test model which is not promising offline	0	1	0	1	0	3	4	0	3	4	3	1	2
+effectiveness	do not test model which is not promising offline	0	2	3	3	1	4	4	1	4	4	2	3	2
+responsiveness	do not test model which is not promising offline	0	0	0	0	0	0	0	0	0	0	0	0	0
+reusability	do not test model which is not promising offline	0	0	0	0	0	0	0	0	0	0	0	0	0
+cost-effectiveness	do not test model which is not promising offline	2	4	4	3	3	3	4	4	4	4	4	4	1
+efficiency	do not test model which is not promising offline	4	4	4	4	3	2	4	4	4	4	4	3	1
+availability	do not test model which is not promising offline	0	0	0	0	0	0	0	0	0	0	0	0	0
+resilience	do not test model which is not promising offline	0	0	0	0	0	0	0	0	0	0	0	0	0
+adaptability	do not test model which is not promising offline	0	0	0	0	0	0	0	0	0	0	0	0	0
+scalability	do not test model which is not promising offline	0	0	0	0	0	0	0	0	0	0	0	0	0
+extensibility	do not test model which is not promising offline	0	0	0	0	0	0	0	0	0	0	0	0	0
+maintainability	do not test model which is not promising offline	0	0	0	0	0	0	0	0	0	0	0	0	0
+modularity	do not test model which is not promising offline	0	0	0	0	0	0	0	0	0	0	0	0	0
+testability	do not test model which is not promising offline	0	0	0	0	0	0	0	0	0	0	0	0	0
+deployability	do not test model which is not promising offline	0	0	0	0	0	0	0	0	0	0	0	0	0
+repeatability	do not test model which is not promising offline	0	0	0	0	0	0	0	0	0	0	0	0	0
+operability	do not test model which is not promising offline	0	0	0	0	0	0	0	0	0	0	0	0	0
+monitoring	do not test model which is not promising offline	0	0	0	0	0	0	0	0	0	0	0	0	0
+discoverability	do not test model which is not promising offline	0	0	0	0	0	0	0	0	0	0	0	0	0
+readability	do not test model which is not promising offline	0	0	0	0	0	0	0	0	0	0	0	0	0
+traceability	do not test model which is not promising offline	0	0	0	0	0	0	0	0	0	0	0	0	0
+understandability	do not test model which is not promising offline	0	0	0	0	0	0	0	0	0	0	0	0	0
+usability	do not test model which is not promising offline	0	0	0	0	0	0	0	0	0	0	0	0	0
+debuggability	do not test model which is not promising offline	0	0	0	0	0	0	0	0	0	0	0	0	0
+explainability	do not test model which is not promising offline	0	0	0	0	0	0	0	0	0	0	0	0	0
+fairness	do not test model which is not promising offline	0	0	0	0	0	0	0	0	0	0	0	0	0
+ownership	do not test model which is not promising offline	0	0	0	0	0	0	0	0	0	0	0	0	0
+standards-compliance	do not test model which is not promising offline	0	0	0	0	0	0	0	0	0	0	0	0	0
+vulnerability	do not test model which is not promising offline	0	0	0	0	0	0	0	0	0	0	0	0	0
+accuracy	understand AB assumption violations and use alternatives	0	4	2	0	1	0	1	4	3	4	4	4	3
+effectiveness	understand AB assumption violations and use alternatives	4	4	4	4	1	4	1	4	4	4	3	3	3
+responsiveness	understand AB assumption violations and use alternatives	0	0	0	0	0	0	0	0	0	0	0	0	0
+reusability	understand AB assumption violations and use alternatives	0	0	0	0	0	0	0	0	0	0	0	0	0
+cost-effectiveness	understand AB assumption violations and use alternatives	1	4	3	3	1	3	2	3	0	4	2	4	2
+efficiency	understand AB assumption violations and use alternatives	3	3	3	1	1	0	3	3	4	4	2	3	1
+availability	understand AB assumption violations and use alternatives	0	0	0	0	0	0	0	0	0	0	0	0	0
+resilience	understand AB assumption violations and use alternatives	0	0	0	0	0	0	0	0	0	0	0	0	0
+adaptability	understand AB assumption violations and use alternatives	0	0	0	0	0	0	0	0	0	0	0	0	0
+scalability	understand AB assumption violations and use alternatives	0	0	0	0	0	0	0	0	0	0	0	0	0
+extensibility	understand AB assumption violations and use alternatives	0	0	0	0	0	0	0	0	0	0	0	0	0
+maintainability	understand AB assumption violations and use alternatives	0	0	0	0	0	0	0	0	0	0	0	0	0
+modularity	understand AB assumption violations and use alternatives	0	0	0	0	0	0	0	0	0	0	0	0	0
+testability	understand AB assumption violations and use alternatives	0	0	0	0	0	0	0	0	0	0	0	0	0
+deployability	understand AB assumption violations and use alternatives	0	0	0	0	0	0	0	0	0	0	0	0	0
+repeatability	understand AB assumption violations and use alternatives	0	0	0	0	0	0	0	0	0	0	0	0	0
+operability	understand AB assumption violations and use alternatives	0	0	0	0	0	0	0	0	0	0	0	0	0
+monitoring	understand AB assumption violations and use alternatives	0	0	0	0	0	0	0	0	0	0	0	0	0
+discoverability	understand AB assumption violations and use alternatives	0	0	0	0	0	0	0	0	0	0	0	0	0
+readability	understand AB assumption violations and use alternatives	0	0	0	0	0	0	0	0	0	0	0	0	0
+traceability	understand AB assumption violations and use alternatives	0	0	0	0	0	0	0	0	0	0	0	0	0
+understandability	understand AB assumption violations and use alternatives	0	0	0	0	0	0	0	0	0	0	0	0	0
+usability	understand AB assumption violations and use alternatives	0	0	0	0	0	0	0	0	0	0	0	0	0
+debuggability	understand AB assumption violations and use alternatives	0	0	0	0	0	0	0	0	0	0	0	0	0
+explainability	understand AB assumption violations and use alternatives	0	0	0	0	0	0	0	0	0	0	0	0	0
+fairness	understand AB assumption violations and use alternatives	0	0	0	0	0	0	0	0	0	0	0	0	0
+ownership	understand AB assumption violations and use alternatives	0	0	0	0	0	0	0	0	0	0	0	0	0
+standards-compliance	understand AB assumption violations and use alternatives	0	0	0	0	0	0	0	0	0	0	0	0	0
+vulnerability	understand AB assumption violations and use alternatives	0	0	0	0	0	0	0	0	0	0	0	0	0
+accuracy	unified environment for all lifecycle steps	0	0	0	0	0	0	0	0	0	0	0	0	0
+effectiveness	unified environment for all lifecycle steps	0	0	0	0	0	0	0	0	0	0	0	0	0
+responsiveness	unified environment for all lifecycle steps	0	0	0	0	0	0	0	0	0	0	0	0	0
+reusability	unified environment for all lifecycle steps	0	0	0	0	0	0	0	0	0	0	0	0	0
+cost-effectiveness	unified environment for all lifecycle steps	2	1	3	3	0	1	2	3	4	0	1	3	1
+efficiency	unified environment for all lifecycle steps	4	4	3	3	0	2	2	3	4	1	3	1	1
+availability	unified environment for all lifecycle steps	0	0	0	0	0	0	0	0	0	0	0	0	0
+resilience	unified environment for all lifecycle steps	2	0	0	0	3	0	2	3	1	1	1	3	1
+adaptability	unified environment for all lifecycle steps	0	2	1	0	3	0	2	3	2	2	3	3	0
+scalability	unified environment for all lifecycle steps	2	1	1	1	0	2	1	3	3	3	1	4	3
+extensibility	unified environment for all lifecycle steps	0	0	0	0	0	0	0	0	0	0	0	0	0
+maintainability	unified environment for all lifecycle steps	0	0	0	0	0	0	0	0	0	0	0	0	0
+modularity	unified environment for all lifecycle steps	0	0	0	0	0	0	0	0	0	0	0	0	0
+testability	unified environment for all lifecycle steps	0	0	0	0	0	0	0	0	0	0	0	0	0
+deployability	unified environment for all lifecycle steps	3	4	3	4	3	4	3	4	2	4	4	4	3
+repeatability	unified environment for all lifecycle steps	4	4	4	4	3	4	3	4	1	3	3	4	3
+operability	unified environment for all lifecycle steps	0	4	2	0	3	2	3	3	4	3	1	2	3
+monitoring	unified environment for all lifecycle steps	3	0	0	1	1	0	3	3	3	3	1	3	1
+discoverability	unified environment for all lifecycle steps	0	0	0	0	0	0	0	0	0	0	0	0	0
+readability	unified environment for all lifecycle steps	0	0	0	0	0	0	0	0	0	0	0	0	0
+traceability	unified environment for all lifecycle steps	0	0	0	0	0	0	0	0	0	0	0	0	0
+understandability	unified environment for all lifecycle steps	0	0	0	0	0	0	0	0	0	0	0	0	0
+usability	unified environment for all lifecycle steps	0	0	0	0	0	0	0	0	0	0	0	0	0
+debuggability	unified environment for all lifecycle steps	0	0	0	0	0	0	0	0	0	0	0	0	0
+explainability	unified environment for all lifecycle steps	0	0	0	0	0	0	0	0	0	0	0	0	0
+fairness	unified environment for all lifecycle steps	0	0	0	0	0	0	0	0	0	0	0	0	0
+ownership	unified environment for all lifecycle steps	0	0	0	0	0	0	0	0	0	0	0	0	0
+standards-compliance	unified environment for all lifecycle steps	0	0	0	0	0	0	0	0	0	0	0	0	0
+vulnerability	unified environment for all lifecycle steps	0	0	0	0	0	0	0	0	0	0	0	0	0
+accuracy	reuse data, supported internal tooling and solutions	0	0	0	0	0	0	0	0	0	0	0	0	0
+effectiveness	reuse data, supported internal tooling and solutions	0	0	0	0	0	0	0	0	0	0	0	0	0
+responsiveness	reuse data, supported internal tooling and solutions	0	0	0	0	0	0	0	0	0	0	0	0	0
+reusability	reuse data, supported internal tooling and solutions	0	0	0	0	0	0	0	0	0	0	0	0	0
+cost-effectiveness	reuse data, supported internal tooling and solutions	2	1	4	1	3	2	3	4	4	4	1	1	4
+efficiency	reuse data, supported internal tooling and solutions	4	4	2	4	3	4	2	3	4	3	4	1	3
+availability	reuse data, supported internal tooling and solutions	0	1	0	1	0	1	2	4	0	1	3	0	3
+resilience	reuse data, supported internal tooling and solutions	0	0	0	0	0	0	0	0	0	0	0	0	0
+adaptability	reuse data, supported internal tooling and solutions	0	0	2	0	3	1	2	4	0	0	2	2	1
+scalability	reuse data, supported internal tooling and solutions	3	1	2	0	0	0	0	0	0	0	0	0	0
+extensibility	reuse data, supported internal tooling and solutions	0	0	0	0	0	0	0	0	0	0	0	0	0
+maintainability	reuse data, supported internal tooling and solutions	0	0	0	0	0	0	0	0	0	0	0	0	0
+modularity	reuse data, supported internal tooling and solutions	0	0	0	0	0	0	0	0	0	0	0	0	0
+testability	reuse data, supported internal tooling and solutions	0	0	0	0	0	0	0	0	0	0	0	0	0
+deployability	reuse data, supported internal tooling and solutions	2	4	3	1	3	3	3	2	3	3	3	2	3
+repeatability	reuse data, supported internal tooling and solutions	3	0	2	3	3	4	3	3	1	1	4	3	0
+operability	reuse data, supported internal tooling and solutions	2	4	2	0	1	3	3	3	0	1	2	3	2
+monitoring	reuse data, supported internal tooling and solutions	2	3	3	0	0	0	0	0	0	0	0	0	0
+discoverability	reuse data, supported internal tooling and solutions	0	0	0	0	0	0	0	0	0	0	0	0	0
+readability	reuse data, supported internal tooling and solutions	0	0	0	0	0	0	0	0	0	0	0	0	0
+traceability	reuse data, supported internal tooling and solutions	0	0	0	0	0	0	0	0	0	0	0	0	0
+understandability	reuse data, supported internal tooling and solutions	0	0	0	0	0	0	0	0	0	0	0	0	0
+usability	reuse data, supported internal tooling and solutions	0	0	0	0	0	0	0	0	0	0	0	0	0
+debuggability	reuse data, supported internal tooling and solutions	0	0	0	0	0	0	0	0	0	0	0	0	0
+explainability	reuse data, supported internal tooling and solutions	0	0	0	0	0	0	0	0	0	0	0	0	0
+fairness	reuse data, supported internal tooling and solutions	0	0	0	0	0	0	0	0	0	0	0	0	0
+ownership	reuse data, supported internal tooling and solutions	0	0	0	0	0	0	0	0	0	0	0	0	0
+standards-compliance	reuse data, supported internal tooling and solutions	0	0	0	0	0	0	0	0	0	0	0	0	0
+vulnerability	reuse data, supported internal tooling and solutions	0	0	0	0	0	0	0	0	0	0	0	0	0
+accuracy	turn experimental code into production code	0	0	0	0	0	0	0	0	0	0	0	0	0
+effectiveness	turn experimental code into production code	0	0	0	0	0	0	0	0	0	0	0	0	0
+responsiveness	turn experimental code into production code	0	0	0	0	0	0	0	0	0	0	0	0	0
+reusability	turn experimental code into production code	0	0	0	0	0	0	0	0	0	0	0	0	0
+cost-effectiveness	turn experimental code into production code	2	1	1	0	0	2	2	3	2	4	1	3	0
+efficiency	turn experimental code into production code	2	4	3	1	0	3	2	3	3	4	1	3	0
+availability	turn experimental code into production code	0	1	0	0	1	0	1	4	1	1	4	0	0
+resilience	turn experimental code into production code	2	1	0	0	1	2	1	0	1	2	4	0	0
+adaptability	turn experimental code into production code	0	1	0	0	1	2	2	3	3	1	3	0	0
+scalability	turn experimental code into production code	0	0	0	1	1	0	0	2	3	2	3	0	3
+extensibility	turn experimental code into production code	0	0	0	0	0	0	0	0	0	0	0	0	0
+maintainability	turn experimental code into production code	0	0	0	0	0	0	0	0	0	0	0	0	0
+modularity	turn experimental code into production code	0	0	0	0	0	0	0	0	0	0	0	0	0
+testability	turn experimental code into production code	0	0	0	0	0	0	0	0	0	0	0	0	0
+deployability	turn experimental code into production code	3	4	2	3	3	4	3	3	3	3	4	0	3
+repeatability	turn experimental code into production code	3	4	2	4	3	4	3	3	4	1	2	0	0
+operability	turn experimental code into production code	0	4	0	0	1	1	3	4	2	1	1	0	0
+monitoring	turn experimental code into production code	0	0	0	1	0	0	2	2	0	1	1	0	0
+discoverability	turn experimental code into production code	0	0	0	0	0	0	0	0	0	0	0	0	0
+readability	turn experimental code into production code	0	0	0	0	0	0	0	0	0	0	0	0	0
+traceability	turn experimental code into production code	0	0	0	0	0	0	0	0	0	0	0	0	0
+understandability	turn experimental code into production code	0	0	0	0	0	0	0	0	0	0	0	0	0
+usability	turn experimental code into production code	0	0	0	0	0	0	0	0	0	0	0	0	0
+debuggability	turn experimental code into production code	0	0	0	0	0	0	0	0	0	0	0	0	0
+explainability	turn experimental code into production code	0	0	0	0	0	0	0	0	0	0	0	0	0
+fairness	turn experimental code into production code	0	0	0	0	0	0	0	0	0	0	0	0	0
+ownership	turn experimental code into production code	0	0	0	0	0	0	0	0	0	0	0	0	0
+standards-compliance	turn experimental code into production code	0	0	0	0	0	0	0	0	0	0	0	0	0
+vulnerability	turn experimental code into production code	0	0	0	0	0	0	0	0	0	0	0	0	0
+accuracy	input data validation	3	2	2	2	2	2	2	2	1	2	3	2	3
+effectiveness	input data validation	0	0	0	0	0	0	0	0	0	0	0	0	0
+responsiveness	input data validation	0	0	0	0	0	0	0	0	0	0	0	0	0
+reusability	input data validation	0	0	0	0	0	0	0	0	0	0	0	0	0
+cost-effectiveness	input data validation	0	0	0	0	0	0	0	0	0	0	0	0	0
+efficiency	input data validation	0	0	0	0	0	0	0	0	0	0	0	0	0
+availability	input data validation	0	0	0	0	0	0	0	0	0	0	0	0	0
+resilience	input data validation	0	0	0	0	0	0	0	0	0	0	0	0	0
+adaptability	input data validation	0	0	0	0	0	0	0	0	0	0	0	0	0
+scalability	input data validation	0	0	0	0	0	0	0	0	0	0	0	0	0
+extensibility	input data validation	0	0	0	0	0	0	0	0	0	0	0	0	0
+maintainability	input data validation	0	0	0	0	0	0	0	0	0	0	0	0	0
+modularity	input data validation	0	0	0	0	0	0	0	0	0	0	0	0	0
+testability	input data validation	0	0	0	0	0	0	0	0	0	0	0	0	0
+deployability	input data validation	0	0	0	0	0	0	0	0	0	0	0	0	0
+repeatability	input data validation	0	0	0	0	0	0	0	0	0	0	0	0	0
+operability	input data validation	0	0	0	0	0	0	0	0	0	0	0	0	0
+monitoring	input data validation	0	0	0	0	0	0	0	0	0	0	0	0	0
+discoverability	input data validation	0	0	0	0	0	0	0	0	0	0	0	0	0
+readability	input data validation	0	0	0	0	0	0	0	0	0	0	0	0	0
+traceability	input data validation	0	0	0	0	0	0	0	0	0	0	0	0	0
+understandability	input data validation	0	0	0	0	0	0	0	0	0	0	0	0	0
+usability	input data validation	0	0	0	0	0	0	0	0	0	0	0	0	0
+debuggability	input data validation	0	0	0	0	0	0	0	0	0	0	0	0	0
+explainability	input data validation	0	0	0	0	0	0	0	0	0	0	0	0	0
+fairness	input data validation	0	0	0	0	0	0	0	0	0	0	0	0	0
+ownership	input data validation	0	0	0	0	0	0	0	0	0	0	0	0	0
+standards-compliance	input data validation	0	0	0	0	0	0	0	0	0	0	0	0	0
+vulnerability	input data validation	3	4	4	1	3	3	3	3	3	3	3	3	0
+accuracy	canary deployment (gradual rollouts)	0	1	0	0	0	0	0	0	0	3	2	0	0
+effectiveness	canary deployment (gradual rollouts)	0	3	2	1	1	2	0	4	1	3	2	0	0
+responsiveness	canary deployment (gradual rollouts)	1	3	2	1	3	4	2	2	3	2	2	2	0
+reusability	canary deployment (gradual rollouts)	0	0	0	0	0	0	0	0	0	0	0	0	0
+cost-effectiveness	canary deployment (gradual rollouts)	3	1	0	0	3	0	0	4	3	2	2	2	0
+efficiency	canary deployment (gradual rollouts)	4	4	0	0	3	0	0	3	2	1	2	1	0
+availability	canary deployment (gradual rollouts)	1	1	0	4	3	4	2	0	4	3	4	1	1
+resilience	canary deployment (gradual rollouts)	0	1	0	1	3	3	0	3	4	4	3	4	0
+adaptability	canary deployment (gradual rollouts)	0	1	0	0	0	0	0	0	0	4	2	1	0
+scalability	canary deployment (gradual rollouts)	0	3	2	0	1	3	1	0	0	3	1	3	1
+extensibility	canary deployment (gradual rollouts)	0	0	0	0	0	0	0	0	0	0	0	0	0
+maintainability	canary deployment (gradual rollouts)	0	0	0	0	0	0	0	0	0	0	0	0	0
+modularity	canary deployment (gradual rollouts)	0	0	0	0	0	0	0	0	0	0	0	0	0
+testability	canary deployment (gradual rollouts)	0	0	0	0	0	0	0	0	0	0	0	0	0
+deployability	canary deployment (gradual rollouts)	1	2	2	3	3	3	3	0	4	4	2	3	1
+repeatability	canary deployment (gradual rollouts)	0	2	0	0	0	0	1	0	2	2	1	2	0
+operability	canary deployment (gradual rollouts)	0	2	0	2	1	0	2	1	3	4	2	3	0
+monitoring	canary deployment (gradual rollouts)	0	2	1	2	1	2	2	1	3	0	3	2	3
+discoverability	canary deployment (gradual rollouts)	0	0	0	0	0	0	0	0	0	0	0	0	0
+readability	canary deployment (gradual rollouts)	0	0	0	0	0	0	0	0	0	0	0	0	0
+traceability	canary deployment (gradual rollouts)	0	0	0	0	0	0	0	0	0	0	0	0	0
+understandability	canary deployment (gradual rollouts)	0	0	0	0	0	0	0	0	0	0	0	0	0
+usability	canary deployment (gradual rollouts)	0	0	0	0	0	0	0	0	0	0	0	0	0
+debuggability	canary deployment (gradual rollouts)	0	0	0	0	0	0	0	0	0	0	0	0	0
+explainability	canary deployment (gradual rollouts)	0	0	0	0	0	0	0	0	0	0	0	0	0
+fairness	canary deployment (gradual rollouts)	0	0	0	0	0	0	0	0	0	0	0	0	0
+ownership	canary deployment (gradual rollouts)	0	0	0	0	0	0	0	0	0	0	0	0	0
+standards-compliance	canary deployment (gradual rollouts)	0	0	0	0	0	0	0	0	0	0	0	0	0
+vulnerability	canary deployment (gradual rollouts)	0	0	0	0	0	0	0	0	0	0	0	0	0
+accuracy	bot detection	2	3	3	3	2	1	2	2	4	2	2	2	3
+effectiveness	bot detection	0	0	0	0	0	0	0	0	0	0	0	0	0
+responsiveness	bot detection	0	0	0	0	0	0	0	0	0	0	0	0	0
+reusability	bot detection	0	0	0	0	0	0	0	0	0	0	0	0	0
+cost-effectiveness	bot detection	0	0	0	0	0	0	0	0	0	0	0	0	0
+efficiency	bot detection	0	0	0	0	0	0	0	0	0	0	0	0	0
+availability	bot detection	0	0	0	0	0	0	0	0	0	0	0	0	0
+resilience	bot detection	0	0	0	0	0	0	0	0	0	0	0	0	0
+adaptability	bot detection	0	0	0	0	0	0	0	0	0	0	0	0	0
+scalability	bot detection	0	0	0	0	0	0	0	0	0	0	0	0	0
+extensibility	bot detection	0	0	0	0	0	0	0	0	0	0	0	0	0
+maintainability	bot detection	0	0	0	0	0	0	0	0	0	0	0	0	0
+modularity	bot detection	0	0	0	0	0	0	0	0	0	0	0	0	0
+testability	bot detection	0	0	0	0	0	0	0	0	0	0	0	0	0
+deployability	bot detection	0	0	0	0	0	0	0	0	0	0	0	0	0
+repeatability	bot detection	0	0	0	0	0	0	0	0	0	0	0	0	0
+operability	bot detection	0	0	0	0	0	0	0	0	0	0	0	0	0
+monitoring	bot detection	0	0	0	0	0	0	0	0	0	0	0	0	0
+discoverability	bot detection	0	0	0	0	0	0	0	0	0	0	0	0	0
+readability	bot detection	0	0	0	0	0	0	0	0	0	0	0	0	0
+traceability	bot detection	0	0	0	0	0	0	0	0	0	0	0	0	0
+understandability	bot detection	0	0	0	0	0	0	0	0	0	0	0	0	0
+usability	bot detection	0	0	0	0	0	0	0	0	0	0	0	0	0
+debuggability	bot detection	0	0	0	0	0	0	0	0	0	0	0	0	0
+explainability	bot detection	0	0	0	0	0	0	0	0	0	0	0	0	0
+fairness	bot detection	0	0	0	0	0	0	0	0	0	0	0	0	0
+ownership	bot detection	0	0	0	0	0	0	0	0	0	0	0	0	0
+standards-compliance	bot detection	0	0	0	0	0	0	0	0	0	0	0	0	0
+vulnerability	bot detection	3	1	2	2	2	2	2	3	2	2	3	2	3
+accuracy	shadow deployment	1	1	0	1	0	3	1	0	4	4	2	3	2
+effectiveness	shadow deployment	1	2	2	1	0	4	2	3	3	4	2	3	0
+responsiveness	shadow deployment	1	2	2	2	1	0	1	3	3	1	2	4	2
+reusability	shadow deployment	0	0	0	0	0	0	0	0	0	0	0	0	0
+cost-effectiveness	shadow deployment	3	1	0	0	3	0	0	4	4	4	2	2	2
+efficiency	shadow deployment	3	4	0	0	0	0	1	3	4	4	3	2	2
+availability	shadow deployment	0	1	0	3	1	0	1	3	3	2	3	0	2
+resilience	shadow deployment	0	1	2	0	3	3	1	3	2	1	2	4	2
+adaptability	shadow deployment	0	1	0	0	1	3	1	0	0	0	2	2	0
+scalability	shadow deployment	0	0	0	0	0	0	0	0	0	0	0	0	0
+extensibility	shadow deployment	0	0	0	0	0	0	0	0	0	0	0	0	0
+maintainability	shadow deployment	0	0	0	0	0	0	0	0	0	0	0	0	0
+modularity	shadow deployment	0	0	0	0	0	0	0	0	0	0	0	0	0
+testability	shadow deployment	0	0	0	0	0	0	0	0	0	0	0	0	0
+deployability	shadow deployment	2	2	2	1	3	4	1	2	4	1	2	0	0
+repeatability	shadow deployment	0	2	0	0	1	0	1	0	2	0	0	3	0
+operability	shadow deployment	0	2	0	4	1	0	1	0	4	1	2	3	1
+monitoring	shadow deployment	0	2	4	2	0	3	3	0	2	2	2	1	2
+discoverability	shadow deployment	0	0	0	0	0	0	0	0	0	0	0	0	0
+readability	shadow deployment	0	0	0	0	0	0	0	0	0	0	0	0	0
+traceability	shadow deployment	0	0	0	0	0	0	0	0	0	0	0	0	0
+understandability	shadow deployment	0	0	0	0	0	0	0	0	0	0	0	0	0
+usability	shadow deployment	0	0	0	0	0	0	0	0	0	0	0	0	0
+debuggability	shadow deployment	0	0	0	0	0	0	0	0	0	0	0	0	0
+explainability	shadow deployment	0	0	0	0	0	0	0	0	0	0	0	0	0
+fairness	shadow deployment	0	0	0	0	0	0	0	0	0	0	0	0	0
+ownership	shadow deployment	0	0	0	0	0	0	0	0	0	0	0	0	0
+standards-compliance	shadow deployment	0	0	0	0	0	0	0	0	0	0	0	0	0
+vulnerability	shadow deployment	0	0	0	0	0	0	0	0	0	0	0	0	0
+accuracy	ml system audit by domain experts	0	0	0	0	0	0	0	0	0	0	0	0	0
+effectiveness	ml system audit by domain experts	0	0	0	0	0	0	0	0	0	0	0	0	0
+responsiveness	ml system audit by domain experts	0	0	0	0	0	0	0	0	0	0	0	0	0
+reusability	ml system audit by domain experts	0	0	0	0	0	0	0	0	0	0	0	0	0
+cost-effectiveness	ml system audit by domain experts	0	0	0	0	0	0	0	0	0	0	0	0	0
+efficiency	ml system audit by domain experts	0	0	0	0	0	0	0	0	0	0	0	0	0
+availability	ml system audit by domain experts	0	0	0	0	0	0	0	0	0	0	0	0	0
+resilience	ml system audit by domain experts	0	0	0	0	0	0	0	0	0	0	0	0	0
+adaptability	ml system audit by domain experts	0	0	0	0	0	0	0	0	0	0	0	0	0
+scalability	ml system audit by domain experts	0	0	0	0	0	0	0	0	0	0	0	0	0
+extensibility	ml system audit by domain experts	0	0	0	0	0	0	0	0	0	0	0	0	0
+maintainability	ml system audit by domain experts	0	0	0	0	0	0	0	0	0	0	0	0	0
+modularity	ml system audit by domain experts	0	0	0	0	0	0	0	0	0	0	0	0	0
+testability	ml system audit by domain experts	0	0	0	0	0	0	0	0	0	0	0	0	0
+deployability	ml system audit by domain experts	0	0	0	0	0	0	0	0	0	0	0	0	0
+repeatability	ml system audit by domain experts	0	0	0	0	0	0	0	0	0	0	0	0	0
+operability	ml system audit by domain experts	0	0	0	0	0	0	0	0	0	0	0	0	0
+monitoring	ml system audit by domain experts	0	0	0	0	0	0	0	0	0	0	0	0	0
+discoverability	ml system audit by domain experts	0	0	0	0	0	0	0	0	0	0	0	0	0
+readability	ml system audit by domain experts	0	0	0	0	0	0	0	0	0	0	0	0	0
+traceability	ml system audit by domain experts	0	0	0	0	0	0	0	0	0	0	0	0	0
+understandability	ml system audit by domain experts	0	0	0	0	0	0	0	0	0	0	0	0	0
+usability	ml system audit by domain experts	0	0	0	0	0	0	0	0	0	0	0	0	0
+debuggability	ml system audit by domain experts	0	0	0	0	0	0	0	0	0	0	0	0	0
+explainability	ml system audit by domain experts	0	0	0	0	0	0	0	0	0	0	0	0	0
+fairness	ml system audit by domain experts	0	0	0	0	0	0	0	0	0	0	0	0	0
+ownership	ml system audit by domain experts	0	0	0	0	0	0	0	0	0	0	0	0	0
+standards-compliance	ml system audit by domain experts	4	3	4	1	3	3	3	1	3	3	2	3	3
+vulnerability	ml system audit by domain experts	2	2	2	3	2	2	1	2	2	2	2	1	2
+accuracy	bias assessment	0	0	0	0	0	0	0	0	0	0	0	0	0
+effectiveness	bias assessment	0	0	0	0	0	0	0	0	0	0	0	0	0
+responsiveness	bias assessment	0	0	0	0	0	0	0	0	0	0	0	0	0
+reusability	bias assessment	0	0	0	0	0	0	0	0	0	0	0	0	0
+cost-effectiveness	bias assessment	0	0	0	0	0	0	0	0	0	0	0	0	0
+efficiency	bias assessment	0	0	0	0	0	0	0	0	0	0	0	0	0
+availability	bias assessment	0	0	0	0	0	0	0	0	0	0	0	0	0
+resilience	bias assessment	0	0	0	0	0	0	0	0	0	0	0	0	0
+adaptability	bias assessment	0	0	0	0	0	0	0	0	0	0	0	0	0
+scalability	bias assessment	0	0	0	0	0	0	0	0	0	0	0	0	0
+extensibility	bias assessment	0	0	0	0	0	0	0	0	0	0	0	0	0
+maintainability	bias assessment	0	0	0	0	0	0	0	0	0	0	0	0	0
+modularity	bias assessment	0	0	0	0	0	0	0	0	0	0	0	0	0
+testability	bias assessment	0	0	0	0	0	0	0	0	0	0	0	0	0
+deployability	bias assessment	0	0	0	0	0	0	0	0	0	0	0	0	0
+repeatability	bias assessment	0	0	0	0	0	0	0	0	0	0	0	0	0
+operability	bias assessment	0	0	0	0	0	0	0	0	0	0	0	0	0
+monitoring	bias assessment	0	0	0	0	0	0	0	0	0	0	0	0	0
+discoverability	bias assessment	0	0	0	0	0	0	0	0	0	0	0	0	0
+readability	bias assessment	0	0	0	0	0	0	0	0	0	0	0	0	0
+traceability	bias assessment	0	0	0	0	0	0	0	0	0	0	0	0	0
+understandability	bias assessment	0	0	0	0	0	0	0	0	0	0	0	0	0
+usability	bias assessment	0	0	0	0	0	0	0	0	0	0	0	0	0
+debuggability	bias assessment	0	0	0	0	0	0	0	0	0	0	0	0	0
+explainability	bias assessment	0	0	0	0	0	0	0	0	0	0	0	0	0
+fairness	bias assessment	3	3	3	3	3	3	3	3	3	3	2	3	3
+ownership	bias assessment	0	0	0	0	0	0	0	0	0	0	0	0	0
+standards-compliance	bias assessment	0	0	0	0	0	0	0	0	0	0	0	0	0
+vulnerability	bias assessment	0	0	0	0	0	0	0	0	0	0	0	0	0
+accuracy	bias mitigation	0	0	0	0	0	0	0	0	0	0	0	0	0
+effectiveness	bias mitigation	0	0	0	0	0	0	0	0	0	0	0	0	0
+responsiveness	bias mitigation	0	0	0	0	0	0	0	0	0	0	0	0	0
+reusability	bias mitigation	0	0	0	0	0	0	0	0	0	0	0	0	0
+cost-effectiveness	bias mitigation	0	0	0	0	0	0	0	0	0	0	0	0	0
+efficiency	bias mitigation	0	0	0	0	0	0	0	0	0	0	0	0	0
+availability	bias mitigation	0	0	0	0	0	0	0	0	0	0	0	0	0
+resilience	bias mitigation	0	0	0	0	0	0	0	0	0	0	0	0	0
+adaptability	bias mitigation	0	0	0	0	0	0	0	0	0	0	0	0	0
+scalability	bias mitigation	0	0	0	0	0	0	0	0	0	0	0	0	0
+extensibility	bias mitigation	0	0	0	0	0	0	0	0	0	0	0	0	0
+maintainability	bias mitigation	0	0	0	0	0	0	0	0	0	0	0	0	0
+modularity	bias mitigation	0	0	0	0	0	0	0	0	0	0	0	0	0
+testability	bias mitigation	0	0	0	0	0	0	0	0	0	0	0	0	0
+deployability	bias mitigation	0	0	0	0	0	0	0	0	0	0	0	0	0
+repeatability	bias mitigation	0	0	0	0	0	0	0	0	0	0	0	0	0
+operability	bias mitigation	0	0	0	0	0	0	0	0	0	0	0	0	0
+monitoring	bias mitigation	0	0	0	0	0	0	0	0	0	0	0	0	0
+discoverability	bias mitigation	0	0	0	0	0	0	0	0	0	0	0	0	0
+readability	bias mitigation	0	0	0	0	0	0	0	0	0	0	0	0	0
+traceability	bias mitigation	0	0	0	0	0	0	0	0	0	0	0	0	0
+understandability	bias mitigation	0	0	0	0	0	0	0	0	0	0	0	0	0
+usability	bias mitigation	0	0	0	0	0	0	0	0	0	0	0	0	0
+debuggability	bias mitigation	0	0	0	0	0	0	0	0	0	0	0	0	0
+explainability	bias mitigation	0	0	0	0	0	0	0	0	0	0	0	0	0
+fairness	bias mitigation	4	4	4	4	4	3	4	3	4	4	4	4	4
+ownership	bias mitigation	0	0	0	0	0	0	0	0	0	0	0	0	0
+standards-compliance	bias mitigation	0	0	0	0	0	0	0	0	0	0	0	0	0
+vulnerability	bias mitigation	0	0	0	0	0	0	0	0	0	0	0	0	0
