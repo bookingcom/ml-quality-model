@@ -76,22 +76,6 @@ different business unit for different types of user generated content.
 
 ## Robustness
 
-### Recoverability	
-
-#### Definition
-The degree to which an ML system can be promptly restored to a previous functioning state.
-
-#### Why is Recoverability important?
-
-An ML system might need to be reverted to a previous version quickly when problems with a new version arise.
-It should not require retraining, lengthy redeployment, and manual intervention needs to be reduced to a
-minimum. 
-
-#### Fulfilled example
-
-A newly deployed version of the ML system produces errors. 
-It can be switched to the previous version within 5 minutes after the error is observed.
-
 ### Availability
 
 #### Definition
@@ -280,14 +264,14 @@ training and deployment are executed automatically.
 ### Operability
 
 #### Definition
-The extent to which an ML system can be controlled (disable, upload new version, etc.).
+The extent to which an ML system can be controlled (disable, revert, upload new version, etc.).
 
 #### Why is Operability important?
 
-When an ML system is being used in production for a particular task, there might be cases where the state of the system 
-must be altered. For example, if the system starts causing problems with its deployment or its predictions it might 
-need to be disabled, or if a bug in the model is found then it has to be updated. Operability is about being able to 
-perform such actions, and it is crucial for the system's value.
+When an ML system is being used in production for a particular task, there might be cases where the state of the system
+must be altered. For example, if the system starts causing problems with its deployment or its predictions it might
+need to be disabled or reverted to a previous state; if a bug in the model is found then it has to be updated.
+Operability is about being able to perform such actions, and it is crucial for the system's value.
 
 #### Fulfilled example
 An ML system that is deployed in a central ML deployment platform and which can be easily disabled or updated without any changes required
@@ -326,19 +310,6 @@ hard to be found by potential users, will have limited commercial value.
 An ML system which can be successfully found with a search by its name or owner: e.g. in a 
 central ML deployment platform or a version control system.
 
-### Learnability
-
-#### Definition
-The capability of an ML system to enable the user to learn how to use it.
-
-#### Why is Learnability important?
-
-An intuitive ML system with a smooth learning curve, makes it easy for its users to learn how to use it, something
-that can increase the adoption and hence the value of the system itself.
-
-#### Fulfilled example
-An ML system with an elaborate documentation and intuitive implementation, which users can learn how to use without
-   much effort.
 
 ### Readability
 
@@ -383,9 +354,10 @@ The ease with which the implementation and design choices of an ML system can be
 
 #### Why is Understandability important?
 
-Usually, during the development of ML systems, certain design choices are being made which have an important impact 
-on the system's output. In order for a contributor to use or build on top of an existing system, it is particularly 
-important to understand the reasoning behind all the choices which were made regarding the implementation or the 
+Usually, during the development of ML systems, certain design choices are being made which have an important impact
+on the system's output. In order for a contributor to learn how to use or build on top of an existing system, it is
+particularly
+important to understand the reasoning behind all the choices which were made regarding the implementation or the
 design of the system.
 
 #### Fulfilled example
