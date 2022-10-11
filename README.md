@@ -1,7 +1,7 @@
 The official repository of the Software Quality Model for Machine Learning.
 
 The structure of the repository is as follows:
-
+```yaml
 |-- README.md
 |-- docs
 |   |-- README.md
@@ -14,3 +14,5 @@ The structure of the repository is as follows:
 |   |-- schemas.md
 |   `-- subcharacteristics.md
 `-- mkdocs.yml
+```
+
