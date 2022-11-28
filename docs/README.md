@@ -18,8 +18,7 @@ specific software development practices.
 
 
 ![quality-model-png](assets/mlsqm.png)
-*A schematic representation the ML quality model acting as the backbone of quality improvement initiatives, ultimately
-aiming at high quality ML systems.*
+*A schematic representation the quality model for Machine Learning systems.*
 
 
 ## Characteristic details 
