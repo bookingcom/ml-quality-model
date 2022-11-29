@@ -1,2644 +1,133 @@
-
-<!doctype html>
-<html lang="en" class="no-js">
-  <head>
-    
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width,initial-scale=1">
-      
-      
-      
-      
-      <link rel="icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-7.3.4">
-    
-    
-      
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
         <title>Subcharacteristics - details - ML Quality Model</title>
-      
-    
-    
-      <link rel="stylesheet" href="../assets/stylesheets/main.db9e7362.min.css">
-      
-        
-        <link rel="stylesheet" href="../assets/stylesheets/palette.3f5d1f46.min.css">
-        
-      
-    
-    
-    
-      
-        
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
-        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
-      
-    
-    
-    
-    
-      
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
 
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
 
-    
-    
-  </head>
-  
-  
-    
-    
-    
-    
-    
-    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
-  
-    
-    <script>function __prefix(e){return new URL("..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
-    
-    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
-    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
-    <label class="md-overlay" for="__drawer"></label>
-    <div data-md-component="skip">
-      
-        
-        <a href="#subcharacteristics-details" class="md-skip">
-          Skip to content
-        </a>
-      
-    </div>
-    <div data-md-component="announce">
-      
-    </div>
-    
-      
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">ML Quality Model</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-<header class="md-header" data-md-component="header">
-  <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="ML Quality Model" class="md-header__button md-logo" aria-label="ML Quality Model" data-md-component="logo">
-      
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href=".." class="nav-link">A Software Quality Model for ML Systems</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../characteristics/" class="nav-link">Characteristics - details</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../definitions/" class="nav-link">Subcharacteristic definitions</a>
+                            </li>
+                            <li class="navitem active">
+                                <a href="./" class="nav-link">Subcharacteristics - details</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../schemas/" class="nav-link">Schemas</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../glossary/" class="nav-link">Glossary</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../license/" class="nav-link">License</a>
+                            </li>
+                        </ul>
 
-    </a>
-    <label class="md-header__button md-icon" for="__drawer">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
-    </label>
-    <div class="md-header__title" data-md-component="header-title">
-      <div class="md-header__ellipsis">
-        <div class="md-header__topic">
-          <span class="md-ellipsis">
-            ML Quality Model
-          </span>
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../definitions/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../schemas/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        <div class="md-header__topic" data-md-component="header-topic">
-          <span class="md-ellipsis">
-            
-              Subcharacteristics - details
-            
-          </span>
-        </div>
-      </div>
-    </div>
-    
-    
-    
-      <label class="md-header__button md-icon" for="__search">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
-      </label>
-      
-<div class="md-search" data-md-component="search" role="dialog">
-  <label class="md-search__overlay" for="__search"></label>
-  <div class="md-search__inner" role="search">
-    <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
-      <label class="md-search__icon md-icon" for="__search">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-      </label>
-      <nav class="md-search__options" aria-label="Search">
-        
-        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
         </button>
-      </nav>
-      
-    </form>
-    <div class="md-search__output">
-      <div class="md-search__scrollwrap" data-md-scrollfix>
-        <div class="md-search-result" data-md-component="search-result">
-          <div class="md-search-result__meta">
-            Initializing search
-          </div>
-          <ol class="md-search-result__list"></ol>
-        </div>
-      </div>
     </div>
-  </div>
-</div>
+
     
-    
-  </nav>
-  
-</header>
-    
-    <div class="md-container" data-md-component="container">
-      
-      
-        
-          
-        
-      
-      <main class="md-main" data-md-component="main">
-        <div class="md-main__inner md-grid">
-          
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
             
-              
-              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
+            <li class="nav-item" data-level="1"><a href="#subcharacteristics-details" class="nav-link">Subcharacteristics - details</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#utility" class="nav-link">Utility</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#robustness" class="nav-link">Robustness</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#economy" class="nav-link">Economy</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#modifiability" class="nav-link">Modifiability</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#productionizability" class="nav-link">Productionizability</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#comprehensibility" class="nav-link">Comprehensibility</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#responsibility" class="nav-link">Responsibility</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
 
-
-<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
-  <label class="md-nav__title" for="__drawer">
-    <a href=".." title="ML Quality Model" class="md-nav__button md-logo" aria-label="ML Quality Model" data-md-component="logo">
-      
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
-
-    </a>
-    ML Quality Model
-  </label>
-  
-  <ul class="md-nav__list" data-md-scrollfix>
-    
-      
-      
-      
-
-  
-  
-  
-    <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
-        A Software Quality Model for ML Systems
-      </a>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../characteristics/" class="md-nav__link">
-        Characteristics - details
-      </a>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../definitions/" class="md-nav__link">
-        Subcharacteristic definitions
-      </a>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-    
-  
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Subcharacteristics - details
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
-        Subcharacteristics - details
-      </a>
-      
-        
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#utility" class="md-nav__link">
-    Utility
-  </a>
-  
-    <nav class="md-nav" aria-label="Utility">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#accuracy" class="md-nav__link">
-    Accuracy
-  </a>
-  
-    <nav class="md-nav" aria-label="Accuracy">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#definition" class="md-nav__link">
-    Definition
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#why-is-accuracy-important" class="md-nav__link">
-    Why is Accuracy important?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fulfilled-example" class="md-nav__link">
-    Fulfilled example
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#effectiveness" class="md-nav__link">
-    Effectiveness
-  </a>
-  
-    <nav class="md-nav" aria-label="Effectiveness">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#definition_1" class="md-nav__link">
-    Definition
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#why-is-effectiveness-important" class="md-nav__link">
-    Why is Effectiveness important?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fulfilled-example_1" class="md-nav__link">
-    Fulfilled example
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#responsiveness" class="md-nav__link">
-    Responsiveness
-  </a>
-  
-    <nav class="md-nav" aria-label="Responsiveness">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#definition_2" class="md-nav__link">
-    Definition
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#why-is-responsiveness-important" class="md-nav__link">
-    Why is Responsiveness important?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fulfilled-example_2" class="md-nav__link">
-    Fulfilled example
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#reusability" class="md-nav__link">
-    Reusability
-  </a>
-  
-    <nav class="md-nav" aria-label="Reusability">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#definition_3" class="md-nav__link">
-    Definition
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#why-is-reusability-important" class="md-nav__link">
-    Why is Reusability important?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fulfilled-example_3" class="md-nav__link">
-    Fulfilled example
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#robustness" class="md-nav__link">
-    Robustness
-  </a>
-  
-    <nav class="md-nav" aria-label="Robustness">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#recoverability" class="md-nav__link">
-    Recoverability
-  </a>
-  
-    <nav class="md-nav" aria-label="Recoverability">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#definition_4" class="md-nav__link">
-    Definition
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#why-is-recoverability-important" class="md-nav__link">
-    Why is Recoverability important?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fulfilled-example_4" class="md-nav__link">
-    Fulfilled example
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#availability" class="md-nav__link">
-    Availability
-  </a>
-  
-    <nav class="md-nav" aria-label="Availability">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#definition_5" class="md-nav__link">
-    Definition
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#why-is-availability-important" class="md-nav__link">
-    Why is Availability important?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fulfilled-example_5" class="md-nav__link">
-    Fulfilled example
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#resilience" class="md-nav__link">
-    Resilience
-  </a>
-  
-    <nav class="md-nav" aria-label="Resilience">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#definition_6" class="md-nav__link">
-    Definition
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#why-is-resilience-important" class="md-nav__link">
-    Why is Resilience important?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fulfilled-example_6" class="md-nav__link">
-    Fulfilled example
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#adaptability" class="md-nav__link">
-    Adaptability
-  </a>
-  
-    <nav class="md-nav" aria-label="Adaptability">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#definition_7" class="md-nav__link">
-    Definition
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#why-is-adaptability-important" class="md-nav__link">
-    Why is Adaptability important?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fulfilled-example_7" class="md-nav__link">
-    Fulfilled example
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#scalability" class="md-nav__link">
-    Scalability
-  </a>
-  
-    <nav class="md-nav" aria-label="Scalability">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#definition_8" class="md-nav__link">
-    Definition
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#why-is-scalability-important" class="md-nav__link">
-    Why is Scalability important?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fulfilled-example_8" class="md-nav__link">
-    Fulfilled example
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#economy" class="md-nav__link">
-    Economy
-  </a>
-  
-    <nav class="md-nav" aria-label="Economy">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#cost-effectiveness" class="md-nav__link">
-    Cost-effectiveness
-  </a>
-  
-    <nav class="md-nav" aria-label="Cost-effectiveness">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#definition_9" class="md-nav__link">
-    Definition
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#why-is-cost-effectiveness-important" class="md-nav__link">
-    Why is Cost-effectiveness important?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fulfilled-example_9" class="md-nav__link">
-    Fulfilled example
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#efficiency" class="md-nav__link">
-    Efficiency
-  </a>
-  
-    <nav class="md-nav" aria-label="Efficiency">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#definition_10" class="md-nav__link">
-    Definition
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#why-is-efficiency-important" class="md-nav__link">
-    Why is Efficiency important?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fulfilled-example_10" class="md-nav__link">
-    Fulfilled example
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#modifiability" class="md-nav__link">
-    Modifiability
-  </a>
-  
-    <nav class="md-nav" aria-label="Modifiability">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#extensibility" class="md-nav__link">
-    Extensibility
-  </a>
-  
-    <nav class="md-nav" aria-label="Extensibility">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#definition_11" class="md-nav__link">
-    Definition
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#why-is-extensibility-important" class="md-nav__link">
-    Why is Extensibility important?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fulfilled-example_11" class="md-nav__link">
-    Fulfilled example
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#maintainability" class="md-nav__link">
-    Maintainability
-  </a>
-  
-    <nav class="md-nav" aria-label="Maintainability">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#definition_12" class="md-nav__link">
-    Definition
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#why-is-maintainability-important" class="md-nav__link">
-    Why is Maintainability important?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fulfilled-example_12" class="md-nav__link">
-    Fulfilled example
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#modularity" class="md-nav__link">
-    Modularity
-  </a>
-  
-    <nav class="md-nav" aria-label="Modularity">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#definition_13" class="md-nav__link">
-    Definition
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#why-is-modularity-important" class="md-nav__link">
-    Why is Modularity important?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fulfilled-example_13" class="md-nav__link">
-    Fulfilled example
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#testability" class="md-nav__link">
-    Testability
-  </a>
-  
-    <nav class="md-nav" aria-label="Testability">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#definition_14" class="md-nav__link">
-    Definition
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#why-is-testability-important" class="md-nav__link">
-    Why is Testability important?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fulfilled-example_14" class="md-nav__link">
-    Fulfilled example
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#productionizability" class="md-nav__link">
-    Productionizability
-  </a>
-  
-    <nav class="md-nav" aria-label="Productionizability">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#deployability" class="md-nav__link">
-    Deployability
-  </a>
-  
-    <nav class="md-nav" aria-label="Deployability">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#definition_15" class="md-nav__link">
-    Definition
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#why-is-deployability-important" class="md-nav__link">
-    Why is Deployability important?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fulfilled-example_15" class="md-nav__link">
-    Fulfilled example
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#repeatability" class="md-nav__link">
-    Repeatability
-  </a>
-  
-    <nav class="md-nav" aria-label="Repeatability">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#definition_16" class="md-nav__link">
-    Definition
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#why-is-repeatability-important" class="md-nav__link">
-    Why is Repeatability important?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fulfilled-example_16" class="md-nav__link">
-    Fulfilled example
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#operability" class="md-nav__link">
-    Operability
-  </a>
-  
-    <nav class="md-nav" aria-label="Operability">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#definition_17" class="md-nav__link">
-    Definition
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#why-is-operability-important" class="md-nav__link">
-    Why is Operability important?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fulfilled-example_17" class="md-nav__link">
-    Fulfilled example
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#monitoring" class="md-nav__link">
-    Monitoring
-  </a>
-  
-    <nav class="md-nav" aria-label="Monitoring">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#definition_18" class="md-nav__link">
-    Definition
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#why-is-monitoring-important" class="md-nav__link">
-    Why is Monitoring important?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fulfilled-example_18" class="md-nav__link">
-    Fulfilled example
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#comprehensibility" class="md-nav__link">
-    Comprehensibility
-  </a>
-  
-    <nav class="md-nav" aria-label="Comprehensibility">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#discoverability" class="md-nav__link">
-    Discoverability
-  </a>
-  
-    <nav class="md-nav" aria-label="Discoverability">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#definition_19" class="md-nav__link">
-    Definition
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#why-is-discoverability-important" class="md-nav__link">
-    Why is Discoverability important?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fulfilled-example_19" class="md-nav__link">
-    Fulfilled example
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#learnability" class="md-nav__link">
-    Learnability
-  </a>
-  
-    <nav class="md-nav" aria-label="Learnability">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#definition_20" class="md-nav__link">
-    Definition
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#why-is-learnability-important" class="md-nav__link">
-    Why is Learnability important?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fulfilled-example_20" class="md-nav__link">
-    Fulfilled example
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#readability" class="md-nav__link">
-    Readability
-  </a>
-  
-    <nav class="md-nav" aria-label="Readability">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#definition_21" class="md-nav__link">
-    Definition
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#why-is-readability-important" class="md-nav__link">
-    Why is Readability important?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fulfilled-example_21" class="md-nav__link">
-    Fulfilled example
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#traceability" class="md-nav__link">
-    Traceability
-  </a>
-  
-    <nav class="md-nav" aria-label="Traceability">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#definition_22" class="md-nav__link">
-    Definition
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#why-is-traceability-important" class="md-nav__link">
-    Why is Traceability important?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fulfilled-example_22" class="md-nav__link">
-    Fulfilled example
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#understandability" class="md-nav__link">
-    Understandability
-  </a>
-  
-    <nav class="md-nav" aria-label="Understandability">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#definition_23" class="md-nav__link">
-    Definition
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#why-is-understandability-important" class="md-nav__link">
-    Why is Understandability important?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fulfilled-example_23" class="md-nav__link">
-    Fulfilled example
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#usability" class="md-nav__link">
-    Usability
-  </a>
-  
-    <nav class="md-nav" aria-label="Usability">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#definition_24" class="md-nav__link">
-    Definition
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#why-is-usability-important" class="md-nav__link">
-    Why is Usability important?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fulfilled-example_24" class="md-nav__link">
-    Fulfilled example
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#debuggability" class="md-nav__link">
-    Debuggability
-  </a>
-  
-    <nav class="md-nav" aria-label="Debuggability">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#definition_25" class="md-nav__link">
-    Definition
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#why-is-debuggability-important" class="md-nav__link">
-    Why is Debuggability important?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fulfilled-example_25" class="md-nav__link">
-    Fulfilled example
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#responsibility" class="md-nav__link">
-    Responsibility
-  </a>
-  
-    <nav class="md-nav" aria-label="Responsibility">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#explainability" class="md-nav__link">
-    Explainability
-  </a>
-  
-    <nav class="md-nav" aria-label="Explainability">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#definition_26" class="md-nav__link">
-    Definition
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#why-is-explainability-important" class="md-nav__link">
-    Why is Explainability important?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fulfilled-example_26" class="md-nav__link">
-    Fulfilled example
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fairness" class="md-nav__link">
-    Fairness
-  </a>
-  
-    <nav class="md-nav" aria-label="Fairness">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#definition_27" class="md-nav__link">
-    Definition
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#why-is-fairness-important" class="md-nav__link">
-    Why is Fairness important?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fulfilled-example_27" class="md-nav__link">
-    Fulfilled example
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#ownership" class="md-nav__link">
-    Ownership
-  </a>
-  
-    <nav class="md-nav" aria-label="Ownership">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#definition_28" class="md-nav__link">
-    Definition
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#why-is-ownership-important" class="md-nav__link">
-    Why is Ownership important?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fulfilled-example_28" class="md-nav__link">
-    Fulfilled example
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#standards-compliance" class="md-nav__link">
-    Standards Compliance
-  </a>
-  
-    <nav class="md-nav" aria-label="Standards Compliance">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#definition_29" class="md-nav__link">
-    Definition
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#why-is-standards-compliance-important" class="md-nav__link">
-    Why is Standards Compliance important?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fulfilled-example_29" class="md-nav__link">
-    Fulfilled example
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#vulnerability" class="md-nav__link">
-    Vulnerability
-  </a>
-  
-    <nav class="md-nav" aria-label="Vulnerability">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#definition_30" class="md-nav__link">
-    Definition
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#why-is-vulnerability-important" class="md-nav__link">
-    Why is Vulnerability important?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fulfilled-example_30" class="md-nav__link">
-    Fulfilled example
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../schemas/" class="md-nav__link">
-        Schemas
-      </a>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../glossary/" class="md-nav__link">
-        Glossary
-      </a>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../license/" class="md-nav__link">
-        License
-      </a>
-    </li>
-  
-
-    
-  </ul>
-</nav>
-                  </div>
-                </div>
-              </div>
-            
-            
-              
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#utility" class="md-nav__link">
-    Utility
-  </a>
-  
-    <nav class="md-nav" aria-label="Utility">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#accuracy" class="md-nav__link">
-    Accuracy
-  </a>
-  
-    <nav class="md-nav" aria-label="Accuracy">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#definition" class="md-nav__link">
-    Definition
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#why-is-accuracy-important" class="md-nav__link">
-    Why is Accuracy important?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fulfilled-example" class="md-nav__link">
-    Fulfilled example
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#effectiveness" class="md-nav__link">
-    Effectiveness
-  </a>
-  
-    <nav class="md-nav" aria-label="Effectiveness">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#definition_1" class="md-nav__link">
-    Definition
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#why-is-effectiveness-important" class="md-nav__link">
-    Why is Effectiveness important?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fulfilled-example_1" class="md-nav__link">
-    Fulfilled example
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#responsiveness" class="md-nav__link">
-    Responsiveness
-  </a>
-  
-    <nav class="md-nav" aria-label="Responsiveness">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#definition_2" class="md-nav__link">
-    Definition
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#why-is-responsiveness-important" class="md-nav__link">
-    Why is Responsiveness important?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fulfilled-example_2" class="md-nav__link">
-    Fulfilled example
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#reusability" class="md-nav__link">
-    Reusability
-  </a>
-  
-    <nav class="md-nav" aria-label="Reusability">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#definition_3" class="md-nav__link">
-    Definition
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#why-is-reusability-important" class="md-nav__link">
-    Why is Reusability important?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fulfilled-example_3" class="md-nav__link">
-    Fulfilled example
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#robustness" class="md-nav__link">
-    Robustness
-  </a>
-  
-    <nav class="md-nav" aria-label="Robustness">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#recoverability" class="md-nav__link">
-    Recoverability
-  </a>
-  
-    <nav class="md-nav" aria-label="Recoverability">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#definition_4" class="md-nav__link">
-    Definition
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#why-is-recoverability-important" class="md-nav__link">
-    Why is Recoverability important?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fulfilled-example_4" class="md-nav__link">
-    Fulfilled example
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#availability" class="md-nav__link">
-    Availability
-  </a>
-  
-    <nav class="md-nav" aria-label="Availability">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#definition_5" class="md-nav__link">
-    Definition
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#why-is-availability-important" class="md-nav__link">
-    Why is Availability important?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fulfilled-example_5" class="md-nav__link">
-    Fulfilled example
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#resilience" class="md-nav__link">
-    Resilience
-  </a>
-  
-    <nav class="md-nav" aria-label="Resilience">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#definition_6" class="md-nav__link">
-    Definition
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#why-is-resilience-important" class="md-nav__link">
-    Why is Resilience important?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fulfilled-example_6" class="md-nav__link">
-    Fulfilled example
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#adaptability" class="md-nav__link">
-    Adaptability
-  </a>
-  
-    <nav class="md-nav" aria-label="Adaptability">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#definition_7" class="md-nav__link">
-    Definition
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#why-is-adaptability-important" class="md-nav__link">
-    Why is Adaptability important?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fulfilled-example_7" class="md-nav__link">
-    Fulfilled example
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#scalability" class="md-nav__link">
-    Scalability
-  </a>
-  
-    <nav class="md-nav" aria-label="Scalability">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#definition_8" class="md-nav__link">
-    Definition
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#why-is-scalability-important" class="md-nav__link">
-    Why is Scalability important?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fulfilled-example_8" class="md-nav__link">
-    Fulfilled example
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#economy" class="md-nav__link">
-    Economy
-  </a>
-  
-    <nav class="md-nav" aria-label="Economy">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#cost-effectiveness" class="md-nav__link">
-    Cost-effectiveness
-  </a>
-  
-    <nav class="md-nav" aria-label="Cost-effectiveness">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#definition_9" class="md-nav__link">
-    Definition
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#why-is-cost-effectiveness-important" class="md-nav__link">
-    Why is Cost-effectiveness important?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fulfilled-example_9" class="md-nav__link">
-    Fulfilled example
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#efficiency" class="md-nav__link">
-    Efficiency
-  </a>
-  
-    <nav class="md-nav" aria-label="Efficiency">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#definition_10" class="md-nav__link">
-    Definition
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#why-is-efficiency-important" class="md-nav__link">
-    Why is Efficiency important?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fulfilled-example_10" class="md-nav__link">
-    Fulfilled example
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#modifiability" class="md-nav__link">
-    Modifiability
-  </a>
-  
-    <nav class="md-nav" aria-label="Modifiability">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#extensibility" class="md-nav__link">
-    Extensibility
-  </a>
-  
-    <nav class="md-nav" aria-label="Extensibility">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#definition_11" class="md-nav__link">
-    Definition
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#why-is-extensibility-important" class="md-nav__link">
-    Why is Extensibility important?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fulfilled-example_11" class="md-nav__link">
-    Fulfilled example
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#maintainability" class="md-nav__link">
-    Maintainability
-  </a>
-  
-    <nav class="md-nav" aria-label="Maintainability">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#definition_12" class="md-nav__link">
-    Definition
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#why-is-maintainability-important" class="md-nav__link">
-    Why is Maintainability important?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fulfilled-example_12" class="md-nav__link">
-    Fulfilled example
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#modularity" class="md-nav__link">
-    Modularity
-  </a>
-  
-    <nav class="md-nav" aria-label="Modularity">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#definition_13" class="md-nav__link">
-    Definition
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#why-is-modularity-important" class="md-nav__link">
-    Why is Modularity important?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fulfilled-example_13" class="md-nav__link">
-    Fulfilled example
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#testability" class="md-nav__link">
-    Testability
-  </a>
-  
-    <nav class="md-nav" aria-label="Testability">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#definition_14" class="md-nav__link">
-    Definition
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#why-is-testability-important" class="md-nav__link">
-    Why is Testability important?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fulfilled-example_14" class="md-nav__link">
-    Fulfilled example
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#productionizability" class="md-nav__link">
-    Productionizability
-  </a>
-  
-    <nav class="md-nav" aria-label="Productionizability">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#deployability" class="md-nav__link">
-    Deployability
-  </a>
-  
-    <nav class="md-nav" aria-label="Deployability">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#definition_15" class="md-nav__link">
-    Definition
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#why-is-deployability-important" class="md-nav__link">
-    Why is Deployability important?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fulfilled-example_15" class="md-nav__link">
-    Fulfilled example
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#repeatability" class="md-nav__link">
-    Repeatability
-  </a>
-  
-    <nav class="md-nav" aria-label="Repeatability">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#definition_16" class="md-nav__link">
-    Definition
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#why-is-repeatability-important" class="md-nav__link">
-    Why is Repeatability important?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fulfilled-example_16" class="md-nav__link">
-    Fulfilled example
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#operability" class="md-nav__link">
-    Operability
-  </a>
-  
-    <nav class="md-nav" aria-label="Operability">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#definition_17" class="md-nav__link">
-    Definition
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#why-is-operability-important" class="md-nav__link">
-    Why is Operability important?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fulfilled-example_17" class="md-nav__link">
-    Fulfilled example
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#monitoring" class="md-nav__link">
-    Monitoring
-  </a>
-  
-    <nav class="md-nav" aria-label="Monitoring">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#definition_18" class="md-nav__link">
-    Definition
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#why-is-monitoring-important" class="md-nav__link">
-    Why is Monitoring important?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fulfilled-example_18" class="md-nav__link">
-    Fulfilled example
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#comprehensibility" class="md-nav__link">
-    Comprehensibility
-  </a>
-  
-    <nav class="md-nav" aria-label="Comprehensibility">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#discoverability" class="md-nav__link">
-    Discoverability
-  </a>
-  
-    <nav class="md-nav" aria-label="Discoverability">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#definition_19" class="md-nav__link">
-    Definition
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#why-is-discoverability-important" class="md-nav__link">
-    Why is Discoverability important?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fulfilled-example_19" class="md-nav__link">
-    Fulfilled example
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#learnability" class="md-nav__link">
-    Learnability
-  </a>
-  
-    <nav class="md-nav" aria-label="Learnability">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#definition_20" class="md-nav__link">
-    Definition
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#why-is-learnability-important" class="md-nav__link">
-    Why is Learnability important?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fulfilled-example_20" class="md-nav__link">
-    Fulfilled example
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#readability" class="md-nav__link">
-    Readability
-  </a>
-  
-    <nav class="md-nav" aria-label="Readability">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#definition_21" class="md-nav__link">
-    Definition
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#why-is-readability-important" class="md-nav__link">
-    Why is Readability important?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fulfilled-example_21" class="md-nav__link">
-    Fulfilled example
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#traceability" class="md-nav__link">
-    Traceability
-  </a>
-  
-    <nav class="md-nav" aria-label="Traceability">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#definition_22" class="md-nav__link">
-    Definition
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#why-is-traceability-important" class="md-nav__link">
-    Why is Traceability important?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fulfilled-example_22" class="md-nav__link">
-    Fulfilled example
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#understandability" class="md-nav__link">
-    Understandability
-  </a>
-  
-    <nav class="md-nav" aria-label="Understandability">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#definition_23" class="md-nav__link">
-    Definition
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#why-is-understandability-important" class="md-nav__link">
-    Why is Understandability important?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fulfilled-example_23" class="md-nav__link">
-    Fulfilled example
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#usability" class="md-nav__link">
-    Usability
-  </a>
-  
-    <nav class="md-nav" aria-label="Usability">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#definition_24" class="md-nav__link">
-    Definition
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#why-is-usability-important" class="md-nav__link">
-    Why is Usability important?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fulfilled-example_24" class="md-nav__link">
-    Fulfilled example
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#debuggability" class="md-nav__link">
-    Debuggability
-  </a>
-  
-    <nav class="md-nav" aria-label="Debuggability">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#definition_25" class="md-nav__link">
-    Definition
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#why-is-debuggability-important" class="md-nav__link">
-    Why is Debuggability important?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fulfilled-example_25" class="md-nav__link">
-    Fulfilled example
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#responsibility" class="md-nav__link">
-    Responsibility
-  </a>
-  
-    <nav class="md-nav" aria-label="Responsibility">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#explainability" class="md-nav__link">
-    Explainability
-  </a>
-  
-    <nav class="md-nav" aria-label="Explainability">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#definition_26" class="md-nav__link">
-    Definition
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#why-is-explainability-important" class="md-nav__link">
-    Why is Explainability important?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fulfilled-example_26" class="md-nav__link">
-    Fulfilled example
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fairness" class="md-nav__link">
-    Fairness
-  </a>
-  
-    <nav class="md-nav" aria-label="Fairness">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#definition_27" class="md-nav__link">
-    Definition
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#why-is-fairness-important" class="md-nav__link">
-    Why is Fairness important?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fulfilled-example_27" class="md-nav__link">
-    Fulfilled example
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#ownership" class="md-nav__link">
-    Ownership
-  </a>
-  
-    <nav class="md-nav" aria-label="Ownership">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#definition_28" class="md-nav__link">
-    Definition
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#why-is-ownership-important" class="md-nav__link">
-    Why is Ownership important?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fulfilled-example_28" class="md-nav__link">
-    Fulfilled example
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#standards-compliance" class="md-nav__link">
-    Standards Compliance
-  </a>
-  
-    <nav class="md-nav" aria-label="Standards Compliance">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#definition_29" class="md-nav__link">
-    Definition
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#why-is-standards-compliance-important" class="md-nav__link">
-    Why is Standards Compliance important?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fulfilled-example_29" class="md-nav__link">
-    Fulfilled example
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#vulnerability" class="md-nav__link">
-    Vulnerability
-  </a>
-  
-    <nav class="md-nav" aria-label="Vulnerability">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#definition_30" class="md-nav__link">
-    Definition
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#why-is-vulnerability-important" class="md-nav__link">
-    Why is Vulnerability important?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fulfilled-example_30" class="md-nav__link">
-    Fulfilled example
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-                  </div>
-                </div>
-              </div>
-            
-          
-          <div class="md-content" data-md-component="content">
-            <article class="md-content__inner md-typeset">
-              
-                
-                
-                <h1 id="subcharacteristics-details">Subcharacteristics - details</h1>
+<h1 id="subcharacteristics-details">Subcharacteristics - details</h1>
 <p>This section contains the following information for each subcharacteristic:</p>
 <ul>
 <li>Definition</li>
@@ -2688,72 +177,62 @@ where we know (by experimentation) that the impact is positive if we keep this n
 <p>The ML system used to predict if user generated accommodation reviews are offensive can be reused for a 
 different business unit for different types of user generated content.</p>
 <h2 id="robustness">Robustness</h2>
-<h3 id="recoverability">Recoverability</h3>
-<h4 id="definition_4">Definition</h4>
-<p>The degree to which an ML system can be promptly restored to a previous functioning state.</p>
-<h4 id="why-is-recoverability-important">Why is Recoverability important?</h4>
-<p>An ML system might need to be reverted to a previous version quickly when problems with a new version arise.
-It should not require retraining, lengthy redeployment, and manual intervention needs to be reduced to a
-minimum. </p>
-<h4 id="fulfilled-example_4">Fulfilled example</h4>
-<p>A newly deployed version of the ML system produces errors. 
-It can be switched to the previous version within 5 minutes after the error is observed.</p>
 <h3 id="availability">Availability</h3>
-<h4 id="definition_5">Definition</h4>
+<h4 id="definition_4">Definition</h4>
 <p>The probability that the system will be up and running and able to deliver useful services to users.</p>
 <h4 id="why-is-availability-important">Why is Availability important?</h4>
 <p>For an ML system to maintain an active user base it needs to be available for use. 
 If an ML system randomly stops working, it will not be used in the long run and will fail to deliver value.</p>
-<h4 id="fulfilled-example_5">Fulfilled example</h4>
+<h4 id="fulfilled-example_4">Fulfilled example</h4>
 <p>The ML system is expected to be serving predictions 99.99% of the time, or any other percent, in line with the business requirements</p>
 <h3 id="resilience">Resilience</h3>
-<h4 id="definition_6">Definition</h4>
+<h4 id="definition_5">Definition</h4>
 <p>The degree to which an ML system can provide and maintain an acceptable level of service in the face of 
 technical challenges to normal operation.</p>
 <h4 id="why-is-resilience-important">Why is Resilience important?</h4>
 <p>ML systems are deployed in an environment with many external dependencies (other systems, databases). 
 Failure of external dependencies is always possible, and the more resilient to failure the ML system is, 
 the more value to the end user it brings.</p>
-<h4 id="fulfilled-example_6">Fulfilled example</h4>
+<h4 id="fulfilled-example_5">Fulfilled example</h4>
 <p>The ML system keeps running with an acceptable accuracy, even when some features become unavailable (e.g. due to a database outage)</p>
 <h3 id="adaptability">Adaptability</h3>
-<h4 id="definition_7">Definition</h4>
+<h4 id="definition_6">Definition</h4>
 <p>The extent to which an ML system can adapt to changes in the production environment, always providing the same functioning level.</p>
 <h4 id="why-is-adaptability-important">Why is Adaptability important?</h4>
 <p>ML systems are deployed in a constantly changing environment: customer behaviour can change due to economic changes, 
 trends, fashion, or new products being available. An ML system should be able to adapt to change.</p>
-<h4 id="fulfilled-example_7">Fulfilled example</h4>
+<h4 id="fulfilled-example_6">Fulfilled example</h4>
 <ol>
 <li>The ML system is periodically retrained on new data.</li>
 <li>The ML system is updated online with each new training instances.</li>
 </ol>
 <h3 id="scalability">Scalability</h3>
-<h4 id="definition_8">Definition</h4>
+<h4 id="definition_7">Definition</h4>
 <p>The ability of an ML system to handle a growing amount of work by adding resources to the system.</p>
 <h4 id="why-is-scalability-important">Why is Scalability important?</h4>
 <p>As business grows, new users can arrive at an exponentially fast pace. The ML system should be ready to handle 
 new traffic and accommodate business growth.</p>
-<h4 id="fulfilled-example_8">Fulfilled example</h4>
+<h4 id="fulfilled-example_7">Fulfilled example</h4>
 <ol>
 <li>The ML system can be scaled to an increased traffic by adding more resources. Adding more resources scales linearly: each new box added can help 1000 new customers.</li>
 <li>Counter example: The bottleneck of the ML system is a O(N^2) computation (N - number of users) which cannot be computed out of core and needs to be run on one box.</li>
 </ol>
 <h2 id="economy">Economy</h2>
 <h3 id="cost-effectiveness">Cost-effectiveness</h3>
-<h4 id="definition_9">Definition</h4>
+<h4 id="definition_8">Definition</h4>
 <p>The extent to which an ML system achieves the desired relationship between costs and overall impact.</p>
 <h4 id="why-is-cost-effectiveness-important">Why is Cost-effectiveness important?</h4>
 <p>It is important to keep a healthy cost to impact ratio. An ML system which costs more to train, maintain, 
 and serve predictions than the impact of these predictions should not be deployed. 
 This can be hard to measure but should never be left out of consideration.</p>
-<h4 id="fulfilled-example_9">Fulfilled example</h4>
+<h4 id="fulfilled-example_8">Fulfilled example</h4>
 <p>The ML system "makes money". The ML system uses resources worth $1000 per month while generating additional $2000 worth of bookings per month.</p>
 <h3 id="efficiency">Efficiency</h3>
-<h4 id="definition_10">Definition</h4>
+<h4 id="definition_9">Definition</h4>
 <p>Efficiency is the ability to avoid wasting resources (computational, human, financial, etc.) in order to perform the desired task effectively.</p>
 <h4 id="why-is-efficiency-important">Why is Efficiency important?</h4>
 <p>It is important to maintain an acceptable level of resources while reaching the desired objective. This also helps maintain cost-effectiveness.</p>
-<h4 id="fulfilled-example_10">Fulfilled example</h4>
+<h4 id="fulfilled-example_9">Fulfilled example</h4>
 <ol>
 <li>The ML system accomplishes its objective by using the least amount of compute resources possible.</li>
 <li>The ML system accomplishes its objective by using the least amount of data annotation possible (think active learning).</li>
@@ -2761,57 +240,57 @@ This can be hard to measure but should never be left out of consideration.</p>
 </ol>
 <h2 id="modifiability">Modifiability</h2>
 <h3 id="extensibility">Extensibility</h3>
-<h4 id="definition_11">Definition</h4>
+<h4 id="definition_10">Definition</h4>
 <p>The ease with which an ML system can be modified, in order to be used for another purpose.</p>
 <h4 id="why-is-extensibility-important">Why is Extensibility important?</h4>
 <p>The more use cases an ML system can be used for, with the minimal amount of change, the more the commercial impact it
 will have on the long term. </p>
-<h4 id="fulfilled-example_11">Fulfilled example</h4>
+<h4 id="fulfilled-example_10">Fulfilled example</h4>
 <p>An ML model trained to identify phone numbers in images can be quickly extended to identify email addresses 
 in the same image dataset.</p>
 <h3 id="maintainability">Maintainability</h3>
-<h4 id="definition_12">Definition</h4>
+<h4 id="definition_11">Definition</h4>
 <p>The ease with which activities aiming at keeping an ML system functional in the desired regime, can be performed. </p>
 <h4 id="why-is-maintainability-important">Why is Maintainability important?</h4>
 <p>The ease and speed with which certain activities can be performed to an ML system in order for this to function 
 properly, directly affect the downtime of the system and hence its commercial impact. At the same time, ease of 
 maintenance means less development time spent for the required activities and thus, higher efficiency of 
 human resources.</p>
-<h4 id="fulfilled-example_12">Fulfilled example</h4>
+<h4 id="fulfilled-example_11">Fulfilled example</h4>
 <p>A unit, integration, and e2e tested and modular ML system, in which changes can be made quickly 
 without risk of breaking it.</p>
 <h3 id="modularity">Modularity</h3>
-<h4 id="definition_13">Definition</h4>
+<h4 id="definition_12">Definition</h4>
 <p>The extent to which an ML system consists of components of limited functionality that interrelate with each other. </p>
 <h4 id="why-is-modularity-important">Why is Modularity important?</h4>
 <p>Highly modular ML systems allow for changes to be performed in one part of the system without the risk to break another 
 part of it. This translates to faster development time to maintain or extend the functionality of the system. </p>
-<h4 id="fulfilled-example_13">Fulfilled example</h4>
+<h4 id="fulfilled-example_12">Fulfilled example</h4>
 <p>An ML system for which the code for each of the steps in the ML lifecycle (data collection, feature engineering, 
 training, etc) is separate in different scripts, and changes in one step do not affect the rest.</p>
 <h3 id="testability">Testability</h3>
-<h4 id="definition_14">Definition</h4>
+<h4 id="definition_13">Definition</h4>
 <p>The degree to which the code of an ML system can be tested for failures.</p>
 <h4 id="why-is-testability-important">Why is Testability important?</h4>
 <p>The ease of testing the functionality of an ML system highly depends on its testability. Highly testable systems require
 less development time for the testing and have more chances of providing the expected output due to the higher testing 
 coverage, which testability entails.</p>
-<h4 id="fulfilled-example_14">Fulfilled example</h4>
+<h4 id="fulfilled-example_13">Fulfilled example</h4>
 <p>A highly modular ML system where each piece of functionality has a narrow scope which is easy to be tested for its 
 expected output and edge cases as well.</p>
 <h2 id="productionizability">Productionizability</h2>
 <h3 id="deployability">Deployability</h3>
-<h4 id="definition_15">Definition</h4>
+<h4 id="definition_14">Definition</h4>
 <p>The extent to which an ML system can be deployed in production when needed.</p>
 <h4 id="why-is-deployability-important">Why is Deployability important?</h4>
 <p>In order for an ML system to bring value, its predictions should be used in production for the task at hand. Hence, 
 one must be able to deploy the system in a production environment when necessary, 
 otherwise its predictions cannot be used.  </p>
-<h4 id="fulfilled-example_15">Fulfilled example</h4>
+<h4 id="fulfilled-example_14">Fulfilled example</h4>
 <p>An ML system that is supposed to predict real-time, can be uploaded in a company central ML deployment platform and serve requests for 
 prediction.</p>
 <h3 id="repeatability">Repeatability</h3>
-<h4 id="definition_16">Definition</h4>
+<h4 id="definition_15">Definition</h4>
 <p>The ease with which the ML lifecycle can be repeated.</p>
 <h4 id="why-is-repeatability-important">Why is Repeatability important?</h4>
 <p>A system which requires many manual steps in order for its ML lifecycle to be repeated, has among others the following
@@ -2819,62 +298,53 @@ risks: The contributor of the system will spend time to run the necessary comman
 there is the chance for human error. Due to the aforementioned, the contributor might hesitate to repeat the system's 
 lifecycle which means that a code quality improvement might not be rolled out, or that the system will not be retrained 
 frequently. To avoid such risks, it is important to be able to repeat the system's lifecycle as easy as possible. </p>
-<h4 id="fulfilled-example_16">Fulfilled example</h4>
+<h4 id="fulfilled-example_15">Fulfilled example</h4>
 <p>The system is associated with a continuous deployment pipeline, in which data collection, feature engineering, 
 training and deployment are executed automatically.</p>
 <h3 id="operability">Operability</h3>
-<h4 id="definition_17">Definition</h4>
-<p>The extent to which an ML system can be controlled (disable, upload new version, etc.).</p>
+<h4 id="definition_16">Definition</h4>
+<p>The extent to which an ML system can be controlled (disable, revert, upload new version, etc.).</p>
 <h4 id="why-is-operability-important">Why is Operability important?</h4>
-<p>When an ML system is being used in production for a particular task, there might be cases where the state of the system 
-must be altered. For example, if the system starts causing problems with its deployment or its predictions it might 
-need to be disabled, or if a bug in the model is found then it has to be updated. Operability is about being able to 
-perform such actions, and it is crucial for the system's value.</p>
-<h4 id="fulfilled-example_17">Fulfilled example</h4>
+<p>When an ML system is being used in production for a particular task, there might be cases where the state of the system
+must be altered. For example, if the system starts causing problems with its deployment or its predictions it might
+need to be disabled or reverted to a previous state; if a bug in the model is found then it has to be updated.
+Operability is about being able to perform such actions, and it is crucial for the system's value.</p>
+<h4 id="fulfilled-example_16">Fulfilled example</h4>
 <p>An ML system that is deployed in a central ML deployment platform and which can be easily disabled or updated without any changes required
 from its clients.</p>
 <h3 id="monitoring">Monitoring</h3>
-<h4 id="definition_18">Definition</h4>
+<h4 id="definition_17">Definition</h4>
 <p>The degree to which relevant indicators of an ML system are effectively observed/monitored and integrated in 
 the operation of the system.</p>
 <h4 id="why-is-monitoring-important">Why is Monitoring important?</h4>
 <p>Since most of the ML systems are complex and non-deterministic, there might be many points of failure during the ML 
 lifecycle. Hence, it is crucial to have monitors for all the relevant indicators of the system in order to understand
 how the system operates and be able to spot degradation of certain components.</p>
-<h4 id="fulfilled-example_18">Fulfilled example</h4>
+<h4 id="fulfilled-example_17">Fulfilled example</h4>
 <p>An ML system that is serving in production, and for which monitors are in place in order to observe feature drift and model performance on an ongoing basis.</p>
 <h2 id="comprehensibility">Comprehensibility</h2>
 <h3 id="discoverability">Discoverability</h3>
-<h4 id="definition_19">Definition</h4>
+<h4 id="definition_18">Definition</h4>
 <p>The degree to which an ML system can be found (by means of performing a search in a database or any other 
 information retrieval system).</p>
 <h4 id="why-is-discoverability-important">Why is Discoverability important?</h4>
 <p>An ML system can only have value if it is possible to be found and used. An excellent ML system which is 
 hard to be found by potential users, will have limited commercial value.</p>
-<h4 id="fulfilled-example_19">Fulfilled example</h4>
+<h4 id="fulfilled-example_18">Fulfilled example</h4>
 <p>An ML system which can be successfully found with a search by its name or owner: e.g. in a 
 central ML deployment platform or a version control system.</p>
-<h3 id="learnability">Learnability</h3>
-<h4 id="definition_20">Definition</h4>
-<p>The capability of an ML system to enable the user to learn how to use it.</p>
-<h4 id="why-is-learnability-important">Why is Learnability important?</h4>
-<p>An intuitive ML system with a smooth learning curve, makes it easy for its users to learn how to use it, something
-that can increase the adoption and hence the value of the system itself.</p>
-<h4 id="fulfilled-example_20">Fulfilled example</h4>
-<p>An ML system with an elaborate documentation and intuitive implementation, which users can learn how to use without
-   much effort.</p>
 <h3 id="readability">Readability</h3>
-<h4 id="definition_21">Definition</h4>
+<h4 id="definition_19">Definition</h4>
 <p>The ease with which the code of an ML system can be understood.</p>
 <h4 id="why-is-readability-important">Why is Readability important?</h4>
 <p>In order for an ML system to be maintained, modified and extended, the contributors should be able to easily 
 understand the system's code with the least possible friction. In this way a contributor will easily understand how the 
 system is built and also will be able to spot any potential mistakes in the logic.</p>
-<h4 id="fulfilled-example_21">Fulfilled example</h4>
+<h4 id="fulfilled-example_19">Fulfilled example</h4>
 <p>An ML system's code with intention-revealing names for variables, functions and classes, for which the functionality
 can be quickly understood with a glance at the code and its documentation and without the need to contact the owner.</p>
 <h3 id="traceability">Traceability</h3>
-<h4 id="definition_22">Definition</h4>
+<h4 id="definition_20">Definition</h4>
 <p>The ability to relate artifacts created during the development of an ML system to describe the system from 
 different perspectives and levels of abstraction with each other, the stakeholders that have contributed to the 
 creation of the artifacts, and the rationale that explains the form of the artifacts.</p>
@@ -2883,7 +353,7 @@ creation of the artifacts, and the rationale that explains the form of the artif
 assumptions during the system's implementation. In order for the system to be easily understood, debugged or audited, it
 is important to be able to trace back certain created artifacts, along with the rationale and stakeholders 
 behind those artifacts.</p>
-<h4 id="fulfilled-example_22">Fulfilled example</h4>
+<h4 id="fulfilled-example_20">Fulfilled example</h4>
 <ol>
 <li>An ML system with extensive logging, in which we can have visibility among others, on the date ranges and 
    hyper-parameters used for training, at any given point in the past. </li>
@@ -2891,169 +361,164 @@ behind those artifacts.</p>
    to contributors.</li>
 </ol>
 <h3 id="understandability">Understandability</h3>
-<h4 id="definition_23">Definition</h4>
+<h4 id="definition_21">Definition</h4>
 <p>The ease with which the implementation and design choices of an ML system can be understood.</p>
 <h4 id="why-is-understandability-important">Why is Understandability important?</h4>
-<p>Usually, during the development of ML systems, certain design choices are being made which have an important impact 
-on the system's output. In order for a contributor to use or build on top of an existing system, it is particularly 
-important to understand the reasoning behind all the choices which were made regarding the implementation or the 
+<p>Usually, during the development of ML systems, certain design choices are being made which have an important impact
+on the system's output. In order for a contributor to learn how to use or build on top of an existing system, it is
+particularly
+important to understand the reasoning behind all the choices which were made regarding the implementation or the
 design of the system.</p>
-<h4 id="fulfilled-example_23">Fulfilled example</h4>
+<h4 id="fulfilled-example_21">Fulfilled example</h4>
 <p>A system with documented explanations of the rationale behind certain choices, e.g. why some features have been 
 bucketized, why those specific buckets were chosen, why certain count features are windowed, etc.</p>
 <h3 id="usability">Usability</h3>
-<h4 id="definition_24">Definition</h4>
+<h4 id="definition_22">Definition</h4>
 <p>The degree to which an ML system can be effectively used by users.</p>
 <h4 id="why-is-usability-important">Why is Usability important?</h4>
 <p>An ML system can have value only if it can be effectively used by its potential users. Thus, it is very important for 
 the system to be easy and intuitive to use.</p>
-<h4 id="fulfilled-example_24">Fulfilled example</h4>
+<h4 id="fulfilled-example_22">Fulfilled example</h4>
 <ol>
 <li>An ML system which is containerized and can run on any machine and does not have any (hidden) special requirements.</li>
 <li>An ML system deployed in a central ML deployment platform available to everyone.  </li>
 </ol>
 <h3 id="debuggability">Debuggability</h3>
-<h4 id="definition_25">Definition</h4>
+<h4 id="definition_23">Definition</h4>
 <p>The extent to which the inner workings of the ML system can be analyzed in order to understand why it behaves the way it does.</p>
 <h4 id="why-is-debuggability-important">Why is Debuggability important?</h4>
 <p>In order for ML systems to be maintained, modified or extended, it is essential for the contributors to be able 
 to analyze their inner workings, to understand how they behave and be able to debug them. </p>
-<h4 id="fulfilled-example_25">Fulfilled example</h4>
+<h4 id="fulfilled-example_23">Fulfilled example</h4>
 <p>An ML system with modular code, unit tests and extensive logging, for which it is easy to understand what went wrong
 in case of an error.</p>
 <h2 id="responsibility">Responsibility</h2>
 <h3 id="explainability">Explainability</h3>
-<h4 id="definition_26">Definition</h4>
+<h4 id="definition_24">Definition</h4>
 <p>The ability to explain the output of an ML system.</p>
 <h4 id="why-is-explainability-important">Why is Explainability important?</h4>
 <p>There are cases when certain predictions of the ML system need to be justified to the affected customers, auditors or 
 other stakeholders. In such cases, being able to explain the mechanism with which the system outputs its predictions, is 
 key for gaining the stakeholders' trust.</p>
-<h4 id="fulfilled-example_26">Fulfilled example</h4>
+<h4 id="fulfilled-example_24">Fulfilled example</h4>
 <p>An ML system with a linear regression model for which we can explain how each feature contributes to the 
 final prediction.</p>
 <h3 id="fairness">Fairness</h3>
-<h4 id="definition_27">Definition</h4>
+<h4 id="definition_25">Definition</h4>
 <p>The extent to which an ML system prevents unjust predictions towards protected attributes (race, gender, income, etc).</p>
 <h4 id="why-is-fairness-important">Why is Fairness important?</h4>
 <p>In many cases, ML systems' predictions are being used to take irreversible decisions on behalf of customers. In order
 for an ML system to be ethical, its performance should not be affected by protected variables, such as country, race 
 or gender.</p>
-<h4 id="fulfilled-example_27">Fulfilled example</h4>
+<h4 id="fulfilled-example_25">Fulfilled example</h4>
 <p>A binary classifier which yields equal False Positive rates, for instances of different booker countries (or other
 sensitive variable).</p>
 <h3 id="ownership">Ownership</h3>
-<h4 id="definition_28">Definition</h4>
+<h4 id="definition_26">Definition</h4>
 <p>The extent to which there exists people appointed to maintaining the ML system and supporting all the relevant stakeholders.</p>
 <h4 id="why-is-ownership-important">Why is Ownership important?</h4>
 <p>It is hard for an ML system to have long-term commercial impact, unless there is a person or team being responsible for 
 maintaining the system and supporting its stakeholders with various requests. Due to this, having clear ownership 
 is an essential part of the system's success.</p>
-<h4 id="fulfilled-example_28">Fulfilled example</h4>
+<h4 id="fulfilled-example_26">Fulfilled example</h4>
 <p>An ML system which is deployed in a central ML deployment platform with details and contact information of its owner.</p>
 <h3 id="standards-compliance">Standards Compliance</h3>
-<h4 id="definition_29">Definition</h4>
+<h4 id="definition_27">Definition</h4>
 <p>The extent to which applicable standards are followed in the ML system.</p>
 <h4 id="why-is-standards-compliance-important">Why is Standards Compliance important?</h4>
 <p>Depending on the organization or the use case that an ML system is operating, there might be certain standards which 
 need to be followed and could add transparency, ensure protection of personal information or standardize certain 
 processes. Adherence to such standards is particularly important for the long-term viability of an ML system. </p>
-<h4 id="fulfilled-example_29">Fulfilled example</h4>
+<h4 id="fulfilled-example_27">Fulfilled example</h4>
 <p>An ML system which is trained with PII and has a clear documentation of the process that is followed in order to 
 ensure the PII data are not accessible by developers without permission and that the PII used for training 
 is not extractable from the system. Please note that if PII is used as features in this ML system any logging functionality
 must also respect the requirements of handling PII data as well.</p>
 <h3 id="vulnerability">Vulnerability</h3>
-<h4 id="definition_30">Definition</h4>
+<h4 id="definition_28">Definition</h4>
 <p>The ease with which the system can be (ab)used to achieve malicious purposes.</p>
 <h4 id="why-is-vulnerability-important">Why is Vulnerability important?</h4>
 <p>It is common for ML systems operating on a lot of traffic or on sensitive applications, to fall victims of abuse by 
 malicious users who try to exploit the system. The risks of such cases of abuse might be very big for the organization 
 itself and its customers, thus it is critical for the ML system to be immune against such attacks.</p>
-<h4 id="fulfilled-example_30">Fulfilled example</h4>
+<h4 id="fulfilled-example_28">Fulfilled example</h4>
 <p>An ML system that has high test coverage, with test cases both for the happy path and edge cases as well, 
-and which has its code reviewed for vulnerability issues by multiple developers.</p>
-                
-              
-              
-                
-
-
-              
-            </article>
-          </div>
+and which has its code reviewed for vulnerability issues by multiple developers.</p></div>
+            </div>
         </div>
-        
-      </main>
-      
-        
-<footer class="md-footer">
-  
-    <nav class="md-footer__inner md-grid" aria-label="Footer">
-      
-        
-        <a href="../definitions/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Subcharacteristic definitions" rel="prev">
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-          </div>
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Previous
-              </span>
-              Subcharacteristic definitions
+
+        <footer class="col-md-12">
+            <hr>
+                <p>Copyright &copy; 1996–2021 Booking.com&trade;. All rights reserved. Published under the Creative Commons Attribution-NonCommercial 4.0 International License.</p>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
             </div>
-          </div>
-        </a>
-      
-      
-        
-        <a href="../schemas/" class="md-footer__link md-footer__link--next" aria-label="Next: Schemas" rel="next">
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Next
-              </span>
-              Schemas
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
             </div>
-          </div>
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
-          </div>
-        </a>
-      
-    </nav>
-  
-  <div class="md-footer-meta md-typeset">
-    <div class="md-footer-meta__inner md-grid">
-      <div class="md-footer-copyright">
-        
-          <div class="md-footer-copyright__highlight">
-            Copyright &copy; 1996–2021 Booking.com&trade;. All rights reserved. Published under the Creative Commons Attribution-NonCommercial 4.0 International License.
-          </div>
-        
-        
-          Made with
-          <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
-            Material for MkDocs
-          </a>
-        
-        
-      </div>
-      
+            <div class="modal-footer">
+            </div>
+        </div>
     </div>
-  </div>
-</footer>
-      
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
     </div>
-    <div class="md-dialog" data-md-component="dialog">
-      <div class="md-dialog__inner md-typeset"></div>
-    </div>
-    <script id="__config" type="application/json">{"base": "..", "features": [], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../assets/javascripts/workers/search.8397ff9e.min.js", "version": null}</script>
-    
-    
-      <script src="../assets/javascripts/bundle.1e84347e.min.js"></script>
-      
-    
-  </body>
+</div>
+
+    </body>
 </html>
