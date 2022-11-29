@@ -1,4 +1,4 @@
-The official repository of the Software Quality Model for Machine Learning.
+# The official repository of the Software Quality Model for Machine Learning.
 
 The repository contains the documentation for the Software Quality Model for Machine Learning 
 (found in the `docs` directory),
@@ -8,3 +8,11 @@ A Framework to Prioritize Software Quality Practices for Machine Learning System
 
 The code contains the notebook `results.ipynb` which includes all the results that are presented in the paper. To 
 reproduce the results, follow instructions found in the README.md in the `code` directory.
+
+## Deploying the GIthub page
+To deploy the Github page, make sure to:
+
+- `pip install mkdoc`
+- `pip install mkdocs-material`
+
+Run: `mkdocs gh-deploy` to deploy the changes
