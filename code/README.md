@@ -1,7 +1,7 @@
 # Prioritization Framework Publication
 
 This repository contains all the supplement material for the paper _"How Good Are Your Best Practices?
-A Framework to Prioritize Software Quality Practices for Machine Learning Systems"_, submitted in SEIP 2023.
+A Framework to Prioritize Software Quality Practices for Machine Learning Systems"_.
 
 ## How to reproduce the paper's results?
 
