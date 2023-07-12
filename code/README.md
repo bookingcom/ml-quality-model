@@ -1,7 +1,7 @@
 # Prioritization Framework Publication
 
-This repository contains all the supplement material for the paper _"How Good Are Your Best Practices?
-A Framework to Prioritize Software Quality Practices for Machine Learning Systems"_.
+This repository contains all the supplement material for the paper _"Best Practices for Machine Learning Systems: 
+An Industrial Framework for Analysis and Optimization"_ ([Arxiv](https://arxiv.org/abs/2306.13662), [Researchgate](https://www.researchgate.net/publication/371686085_Best_Practices_for_Machine_Learning_Systems_An_Industrial_Framework_for_Analysis_and_Optimization)).
 
 ## How to reproduce the paper's results?
 
